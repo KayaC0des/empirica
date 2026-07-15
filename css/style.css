@@ -463,7 +463,7 @@ blockquote.pull-quote::after { content: '”'; }
 .footer-brand svg { width: 30px; height: 30px; color: var(--gold); }
 .footer-brand span { font-family: var(--font-serif); font-size: 1.25rem; color: var(--ivory); }
 .footer-tag { font-size: .85rem; max-width: 280px; }
-.footer h4 {
+.site-footer h4 {
   color: var(--ivory);
   font-family: var(--font-sans);
   font-size: .78rem;
