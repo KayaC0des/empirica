@@ -465,12 +465,6 @@ blockquote.pull-quote::after { content: '”'; }
 .footer-tag { font-size: .85rem; max-width: 280px; }
 .site-footer h4 {
   color: var(--ivory);
-  font-family: var(--font-sans);
-  font-size: .78rem;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  font-weight: 500;
-  margin-bottom: 16px;
 }
 .footer-col a, .footer-col span { display: block; font-size: .9rem; margin-bottom: 12px; color: var(--sage); }
 .footer-col a:hover { color: var(--gold-light); }
