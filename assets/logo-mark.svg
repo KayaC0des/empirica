@@ -1,0 +1,10 @@
+<svg viewBox="0 0 140 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="empiricaMarkTitle">
+  <title id="empiricaMarkTitle">Empirica</title>
+  <g fill="none" stroke="#C8A56A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="70" cy="13" r="1.8" fill="#C8A56A" stroke="none"/>
+    <circle cx="70" cy="20.5" r="2.5" fill="#C8A56A" stroke="none"/>
+    <circle cx="70" cy="28.5" r="3.3" fill="#C8A56A" stroke="none"/>
+    <path d="M 77.64 36.67 A 44 44 0 1 1 62.36 36.67" />
+    <path d="M 70 58 C 89 58 91 80 77 88 C 66 94 57 85 62 76 C 65.5 69.5 76 69.5 78 76.5" />
+  </g>
+</svg>

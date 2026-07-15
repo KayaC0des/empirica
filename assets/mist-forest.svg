@@ -1,0 +1,19 @@
+<svg viewBox="0 0 1600 700" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <circle cx="1180" cy="140" r="150" fill="#C8A56A" opacity="0.14"/>
+  <circle cx="1180" cy="140" r="80" fill="#C8A56A" opacity="0.12"/>
+
+  <polygon points="0,420 120,360 260,400 400,330 560,390 720,340 880,400 1040,350 1200,410 1360,360 1600,420 1600,700 0,700"
+           fill="#A8B5A0" opacity="0.16"/>
+
+  <polygon points="0,500 150,440 320,480 480,410 620,470 780,420 940,480 1100,430 1260,490 1440,440 1600,500 1600,700 0,700"
+           fill="#7A8D77" opacity="0.22"/>
+
+  <polygon points="0,580 140,520 300,560 460,500 600,555 760,510 920,565 1080,515 1240,570 1420,520 1600,580 1600,700 0,700"
+           fill="#2F4A45" opacity="0.55"/>
+
+  <g fill="none" stroke="#C8A56A" opacity="0.16" stroke-width="1.5">
+    <circle cx="800" cy="660" r="30"/>
+    <circle cx="800" cy="660" r="60"/>
+    <circle cx="800" cy="660" r="92"/>
+  </g>
+</svg>
