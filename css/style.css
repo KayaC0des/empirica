@@ -376,7 +376,7 @@ section { padding: 100px 0; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: 80% center;
   display: block;
 }
 .symbolism-panel-photo::after {
@@ -416,6 +416,7 @@ section { padding: 100px 0; }
   .symbolism-panel-photo::after {
     background: linear-gradient(to bottom, var(--ivory) 0%, var(--ivory) 46%, rgba(247,244,239,.75) 62%, transparent 86%);
   }
+  .symbolism-panel-photo img { object-position: center 80%; }
 }
 
 blockquote.pull-quote {
@@ -458,16 +459,6 @@ blockquote.pull-quote::after { content: '”'; }
   z-index: 0;
 }
 .section-watermark > .container { position: relative; z-index: 1; }
-.contact-side.section-watermark > .item { position: relative; z-index: 1; }
-.contact-side.section-watermark .watermark-logo {
-  top: auto;
-  bottom: 0;
-  left: 0;
-  transform: none;
-  width: 100%;
-  height: auto;
-  opacity: .12;
-}
 
 .testimonial {
   background: var(--ivory);
