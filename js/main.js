@@ -15,6 +15,27 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  const parallaxLayer = document.querySelector('.parallax-hero .parallax-layer');
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (parallaxLayer && !prefersReducedMotion) {
+    const heroSection = document.querySelector('.parallax-hero');
+    let ticking = false;
+    const updateParallax = () => {
+      const rect = heroSection.getBoundingClientRect();
+      if (rect.bottom > 0 && rect.top < window.innerHeight) {
+        parallaxLayer.style.transform = `translateY(${window.scrollY * 0.15}px)`;
+      }
+      ticking = false;
+    };
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        requestAnimationFrame(updateParallax);
+        ticking = true;
+      }
+    }, { passive: true });
+    updateParallax();
+  }
+
   const backToTop = document.querySelector('#backToTop');
   if (backToTop) {
     const toggleVisibility = () => {
