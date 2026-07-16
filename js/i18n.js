@@ -21,7 +21,6 @@ const translations = {
     legal: {
       eyebrow: "Prawne",
       updated: "Ostatnia aktualizacja: 16 lipca 2026",
-      flag: "To jest przykładowy szablon, a nie porada prawna. Skonsultuj treść z prawnikiem przed publikacją.",
       privacy: {
         title: "Polityka Prywatności",
         intro: "Niniejsza polityka prywatności wyjaśnia, jakie dane osobowe są zbierane podczas korzystania ze strony Empirica oraz w jaki sposób są przetwarzane.",
@@ -104,7 +103,6 @@ const translations = {
       testimonial: {
         eyebrow: "Głosy",
         title: "Z doświadczenia klientów",
-        flag: "Przykładowe opinie — zastąp prawdziwymi, za zgodą klientów",
         t1: {
           quote: "Sesja pomogła mi zobaczyć wzorzec, który powtarzał się w mojej rodzinie od pokoleń. Czuję ulgę i więcej przestrzeni w codziennych decyzjach.",
           cite: "— Klientka, sesja indywidualna"
@@ -136,7 +134,6 @@ const translations = {
       eyebrow: "O mnie",
       name: "[Imię i Nazwisko]",
       role: "Praktyk ustawień systemowych",
-      flag: "Uzupełnij prawdziwe dane przed publikacją",
       p1: "Towarzyszę ludziom w odkrywaniu wzorców, które — choć niewidoczne — kształtują ich relacje, decyzje i codzienne życie.",
       p2: "Do pracy systemowej trafiłam własną drogą — poprzez doświadczenie, obserwację i potrzebę zrozumienia tego, co powtarzało się w moim życiu, zanim nazwałam to systemem.",
       p3: "Pracuję w duchu spokoju i szacunku dla tempa każdej osoby. Nie proszę o wiarę — zapraszam do doświadczenia.",
@@ -153,7 +150,6 @@ const translations = {
       priceLabel: "Cena",
       priceValue: "£70",
       priceUnit: "/ 90 minut",
-      priceFlag: "Cena przykładowa — potwierdź przed publikacją",
       includesTitle: "W ramach sesji",
       include1: "90 minut pracy indywidualnej online",
       include2: "Krótka rozmowa wstępna przed sesją właściwą",
@@ -211,8 +207,7 @@ const translations = {
       sideEmailValue: "empiricaconstellations@gmail.com",
       sideSocialsLabel: "Media społecznościowe",
       sideLocationLabel: "Lokalizacja",
-      sideLocationValue: "Zdalnie • Lincoln, Wielka Brytania",
-      flag: "Dane przykładowe — uzupełnij prawdziwe przed publikacją"
+      sideLocationValue: "Zdalnie • Lincoln, Wielka Brytania"
     },
     footer: {
       tagline: "Zrozumieć. Uzdrowić. Uwolnić.",
@@ -248,7 +243,6 @@ const translations = {
     legal: {
       eyebrow: "Legal",
       updated: "Last updated: 16 July 2026",
-      flag: "This is a placeholder template, not legal advice. Please consult a lawyer before publishing.",
       privacy: {
         title: "Privacy Policy",
         intro: "This privacy policy explains what personal data is collected when using the Empirica website, and how it is processed.",
@@ -331,7 +325,6 @@ const translations = {
       testimonial: {
         eyebrow: "Voices",
         title: "From client experience",
-        flag: "Sample testimonials — replace with real ones, with client consent",
         t1: {
           quote: "The session helped me see a pattern that had repeated in my family for generations. I feel relief, and more space in my everyday decisions.",
           cite: "— Client, individual session"
@@ -363,7 +356,6 @@ const translations = {
       eyebrow: "About Me",
       name: "[Your Name]",
       role: "Systemic Constellations Practitioner",
-      flag: "Replace with real details before publishing",
       p1: "I accompany people in discovering the patterns that — though unseen — shape their relationships, decisions and everyday life.",
       p2: "I found my way to systemic work through my own path — through experience, observation, and the need to understand what kept repeating in my own life before I had a name for it.",
       p3: "I work with calm and respect for each person's own pace. I don't ask for belief — I invite experience.",
@@ -380,7 +372,6 @@ const translations = {
       priceLabel: "Price",
       priceValue: "£70",
       priceUnit: "/ 90 minutes",
-      priceFlag: "Placeholder price — confirm before publishing",
       includesTitle: "What's included",
       include1: "90 minutes of individual online work",
       include2: "A short initial conversation before the session itself",
@@ -438,8 +429,7 @@ const translations = {
       sideEmailValue: "empiricaconstellations@gmail.com",
       sideSocialsLabel: "Social Media",
       sideLocationLabel: "Location",
-      sideLocationValue: "Remote • Lincoln, United Kingdom",
-      flag: "Placeholder details — replace with real ones before publishing"
+      sideLocationValue: "Remote • Lincoln, United Kingdom"
     },
     footer: {
       tagline: "Understand. Heal. Release.",
