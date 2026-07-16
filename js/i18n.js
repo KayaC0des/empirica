@@ -5,7 +5,10 @@ const translations = {
       about: "O mnie — Empirica",
       offer: "Oferta — Empirica",
       constellations: "Ustawienia Systemowe — Empirica",
-      contact: "Kontakt — Empirica"
+      contact: "Kontakt — Empirica",
+      privacy: "Polityka Prywatności — Empirica",
+      terms: "Regulamin — Empirica",
+      cookies: "Polityka Cookies — Empirica"
     },
     nav: {
       home: "Strona główna",
@@ -14,6 +17,59 @@ const translations = {
       constellations: "Ustawienia systemowe",
       contact: "Kontakt",
       cta: "Umów sesję"
+    },
+    legal: {
+      eyebrow: "Prawne",
+      updated: "Ostatnia aktualizacja: 16 lipca 2026",
+      flag: "To jest przykładowy szablon, a nie porada prawna. Skonsultuj treść z prawnikiem przed publikacją.",
+      privacy: {
+        title: "Polityka Prywatności",
+        intro: "Niniejsza polityka prywatności wyjaśnia, jakie dane osobowe są zbierane podczas korzystania ze strony Empirica oraz w jaki sposób są przetwarzane.",
+        s1title: "Administrator danych",
+        s1body: "Administratorem danych osobowych jest [Imię i Nazwisko / Nazwa działalności], z siedzibą w Lincoln, Wielka Brytania. Kontakt w sprawach ochrony danych: kontakt@empirica-example.com.",
+        s2title: "Jakie dane zbieramy",
+        s2body: "Poprzez formularz kontaktowy zbieramy: imię i nazwisko, adres e-mail, preferowany język sesji oraz treść wiadomości. Nie zbieramy danych bez Twojej wiedzy ani zgody.",
+        s3title: "Cel i podstawa przetwarzania",
+        s3body: "Dane są przetwarzane w celu odpowiedzi na zapytanie oraz umówienia sesji, na podstawie Twojej zgody wyrażonej poprzez wysłanie formularza (art. 6 ust. 1 lit. a RODO).",
+        s4title: "Odbiorcy danych",
+        s4body: "Wiadomości z formularza kontaktowego są przetwarzane przez zewnętrznego dostawcę usługi formularzy (Formspree). Strona jest hostowana przez Vercel Inc. Obaj dostawcy mogą przetwarzać dane zgodnie z własnymi politykami prywatności.",
+        s5title: "Okres przechowywania",
+        s5body: "Dane przechowywane są przez okres niezbędny do udzielenia odpowiedzi i, w razie umówienia sesji, przez czas trwania współpracy, a następnie zgodnie z obowiązującymi przepisami.",
+        s6title: "Twoje prawa",
+        s6body: "Masz prawo do dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia oraz wniesienia sprzeciwu. Możesz również wycofać zgodę w dowolnym momencie, kontaktując się pod adresem podanym powyżej.",
+        s7title: "Pliki cookies",
+        s7body: "Informacje o plikach cookies znajdziesz w naszej Polityce Cookies."
+      },
+      terms: {
+        title: "Regulamin",
+        intro: "Niniejszy regulamin określa zasady korzystania z usług oferowanych przez Empirica.",
+        s1title: "Zakres usług",
+        s1body: "Empirica oferuje indywidualne sesje ustawień systemowych, prowadzone wyłącznie online za pośrednictwem połączenia wideo.",
+        s2title: "Rezerwacja sesji",
+        s2body: "Sesje umawiane są poprzez formularz kontaktowy. Po otrzymaniu zgłoszenia skontaktujemy się w celu ustalenia terminu.",
+        s3title: "Odwołanie i zmiana terminu",
+        s3body: "Prosimy o zgłoszenie odwołania lub zmiany terminu sesji z co najmniej [X] godzinnym wyprzedzeniem. [Uzupełnij szczegółową politykę odwołań i ewentualnych opłat.]",
+        s4title: "Charakter usługi",
+        s4body: "Ustawienia systemowe nie są formą terapii psychologicznej ani leczenia medycznego i nie zastępują opieki specjalistycznej. Udział w sesji jest dobrowolny i odbywa się na własną odpowiedzialność uczestnika.",
+        s5title: "Płatności",
+        s5body: "[Uzupełnij informacje o sposobie i terminie płatności za sesję.]",
+        s6title: "Reklamacje",
+        s6body: "Wszelkie uwagi i reklamacje dotyczące świadczonych usług prosimy kierować na adres kontakt@empirica-example.com.",
+        s7title: "Postanowienia końcowe",
+        s7body: "W sprawach nieuregulowanych niniejszym regulaminem zastosowanie mają obowiązujące przepisy prawa."
+      },
+      cookies: {
+        title: "Polityka Cookies",
+        intro: "Niniejsza strona wykorzystuje ograniczoną liczbę technologii przechowywania danych w przeglądarce.",
+        s1title: "Czym są pliki cookies",
+        s1body: "Cookies to niewielkie pliki tekstowe zapisywane w przeglądarce użytkownika podczas odwiedzania strony internetowej.",
+        s2title: "Jakich technologii używamy",
+        s2body: "Ta strona korzysta z lokalnego zapisu przeglądarki (localStorage) wyłącznie w celu zapamiętania wybranego języka strony (polski/angielski). Nie używamy plików cookies do celów reklamowych ani śledzenia użytkowników.",
+        s3title: "Dostawcy zewnętrzni",
+        s3body: "Formularz kontaktowy (Formspree) oraz hosting (Vercel) mogą ustawiać własne, niezbędne pliki cookies techniczne, zgodnie z ich politykami prywatności.",
+        s4title: "Zarządzanie cookies",
+        s4body: "Możesz zarządzać lub usuwać pliki cookies w ustawieniach swojej przeglądarki internetowej."
+      }
     },
     home: {
       hero: {
@@ -159,7 +215,10 @@ const translations = {
       contactTitle: "Kontakt",
       followTitle: "Obserwuj",
       location: "Sesje online • Lincoln, Wielka Brytania",
-      rights: "Wszelkie prawa zastrzeżone."
+      rights: "Wszelkie prawa zastrzeżone.",
+      privacyLink: "Polityka prywatności",
+      termsLink: "Regulamin",
+      cookiesLink: "Cookies"
     }
   },
   en: {
@@ -168,7 +227,10 @@ const translations = {
       about: "About — Empirica",
       offer: "Offer — Empirica",
       constellations: "Systemic Constellations — Empirica",
-      contact: "Contact — Empirica"
+      contact: "Contact — Empirica",
+      privacy: "Privacy Policy — Empirica",
+      terms: "Terms & Conditions — Empirica",
+      cookies: "Cookie Policy — Empirica"
     },
     nav: {
       home: "Home",
@@ -177,6 +239,59 @@ const translations = {
       constellations: "Systemic Constellations",
       contact: "Contact",
       cta: "Book a Session"
+    },
+    legal: {
+      eyebrow: "Legal",
+      updated: "Last updated: 16 July 2026",
+      flag: "This is a placeholder template, not legal advice. Please consult a lawyer before publishing.",
+      privacy: {
+        title: "Privacy Policy",
+        intro: "This privacy policy explains what personal data is collected when using the Empirica website, and how it is processed.",
+        s1title: "Data Controller",
+        s1body: "The data controller is [Your Name / Business Name], based in Lincoln, United Kingdom. Contact for data protection matters: kontakt@empirica-example.com.",
+        s2title: "What Data We Collect",
+        s2body: "Through the contact form we collect: your name, email address, preferred session language, and the content of your message. We do not collect data without your knowledge or consent.",
+        s3title: "Purpose and Legal Basis",
+        s3body: "Data is processed to respond to your inquiry and arrange a session, based on your consent given by submitting the form (Art. 6(1)(a) GDPR).",
+        s4title: "Data Recipients",
+        s4body: "Contact form messages are processed by a third-party form service (Formspree). The site is hosted by Vercel Inc. Both providers may process data according to their own privacy policies.",
+        s5title: "Data Retention",
+        s5body: "Data is retained for as long as necessary to respond to you and, if a session is arranged, for the duration of our work together, then in line with applicable regulations.",
+        s6title: "Your Rights",
+        s6body: "You have the right to access, correct, delete, restrict the processing of, and transfer your data, as well as to object to its processing. You may also withdraw your consent at any time by contacting the address above.",
+        s7title: "Cookies",
+        s7body: "Information about cookies can be found in our Cookie Policy."
+      },
+      terms: {
+        title: "Terms & Conditions",
+        intro: "These terms set out the rules for using the services offered by Empirica.",
+        s1title: "Scope of Services",
+        s1body: "Empirica offers individual systemic constellation sessions, conducted exclusively online via video call.",
+        s2title: "Booking a Session",
+        s2body: "Sessions are arranged via the contact form. Once we receive your inquiry, we will get in touch to arrange a time.",
+        s3title: "Cancellations and Rescheduling",
+        s3body: "Please notify us of any cancellation or rescheduling at least [X] hours in advance. [Fill in your detailed cancellation and fee policy.]",
+        s4title: "Nature of the Service",
+        s4body: "Systemic constellations are not a form of psychotherapy or medical treatment and do not replace professional care. Participation in a session is voluntary and at the participant's own responsibility.",
+        s5title: "Payments",
+        s5body: "[Fill in details about payment method and timing for sessions.]",
+        s6title: "Complaints",
+        s6body: "Any comments or complaints regarding the services provided should be sent to kontakt@empirica-example.com.",
+        s7title: "Final Provisions",
+        s7body: "Matters not covered by these terms are governed by applicable law."
+      },
+      cookies: {
+        title: "Cookie Policy",
+        intro: "This website uses a limited number of browser storage technologies.",
+        s1title: "What Are Cookies",
+        s1body: "Cookies are small text files stored in your browser when you visit a website.",
+        s2title: "What Technologies We Use",
+        s2body: "This site uses browser local storage (localStorage) solely to remember your selected site language (Polish/English). We do not use cookies for advertising or user tracking purposes.",
+        s3title: "Third-Party Providers",
+        s3body: "The contact form provider (Formspree) and hosting provider (Vercel) may set their own essential technical cookies, in accordance with their respective privacy policies.",
+        s4title: "Managing Cookies",
+        s4body: "You can manage or delete cookies through your browser's settings."
+      }
     },
     home: {
       hero: {
@@ -322,7 +437,10 @@ const translations = {
       contactTitle: "Contact",
       followTitle: "Follow",
       location: "Online sessions • Lincoln, United Kingdom",
-      rights: "All rights reserved."
+      rights: "All rights reserved.",
+      privacyLink: "Privacy Policy",
+      termsLink: "Terms & Conditions",
+      cookiesLink: "Cookies"
     }
   }
 };

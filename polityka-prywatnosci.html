@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kontakt — Empirica</title>
-<meta name="description" content="Umów sesję ustawień systemowych online. Napisz kilka słów o tym, z czym się zgłaszasz.">
+<title>Polityka Prywatności — Empirica</title>
+<meta name="description" content="Polityka prywatności Empirica — jakie dane są zbierane i jak są przetwarzane.">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body data-i18n-title="meta.contact">
+<body data-i18n-title="meta.privacy">
 
 <header class="site-header">
   <div class="container nav">
@@ -24,7 +24,7 @@
       <a href="o-mnie.html" data-i18n="nav.about">O mnie</a>
       <a href="oferta.html" data-i18n="nav.offer">Oferta</a>
       <a href="ustawienia-systemowe.html" data-i18n="nav.constellations">Ustawienia systemowe</a>
-      <a href="kontakt.html" data-i18n="nav.contact" aria-current="page">Kontakt</a>
+      <a href="kontakt.html" data-i18n="nav.contact">Kontakt</a>
     </nav>
     <div class="nav-right">
       <div class="lang-switch" role="group" aria-label="Język / Language">
@@ -42,69 +42,44 @@
 <div class="side-social" aria-label="Social media">
   <a href="https://instagram.com/EmpiricaConstellations" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
   <a href="https://facebook.com/EmpiricaConstellations" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M14 8.5h-1.5a1.5 1.5 0 0 0-1.5 1.5v2h3l-.4 2.5H11V19h-2.5v-4.5H7v-2.5h1.5V9.8A3.3 3.3 0 0 1 11.9 6.5H14z" fill="currentColor" stroke="none"/></svg></a>
-          <a href="kontakt.html" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M6 8l6 5 6-5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+  <a href="kontakt.html" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M6 8l6 5 6-5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
 </div>
 
 <main>
 
-  <section class="hero hero-page hero-photo on-dark" style="--hero-photo: url('../assets/hero-contact.jpg');">
-    <div class="container hero-inner">
-      <span class="eyebrow" data-i18n="contact.eyebrow">Kontakt</span>
-      <h1 data-i18n="contact.title">Umów sesję</h1>
-      <p class="lede" data-i18n="contact.lede">Napisz kilka słów o tym, z czym się zgłaszasz. Odpowiem w ciągu 2–3 dni roboczych.</p>
+  <section class="legal-page-header">
+    <div class="container">
+      <span class="eyebrow" data-i18n="legal.eyebrow">Prawne</span>
+      <h1 data-i18n="legal.privacy.title">Polityka Prywatności</h1>
+      <p class="form-note" data-i18n="legal.updated">Ostatnia aktualizacja: 16 lipca 2026</p>
+      <span class="placeholder-flag" data-i18n="legal.flag">To jest przykładowy szablon, a nie porada prawna. Skonsultuj treść z prawnikiem przed publikacją.</span>
     </div>
   </section>
 
   <section>
-    <div class="container contact-grid">
-      <!--
-        Before publishing: sign up at https://formspree.io (free plan),
-        create a form, and replace YOUR_FORM_ID below with the real endpoint.
-      -->
-      <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <div class="form-row">
-          <label for="name" data-i18n="contact.formName">Imię i nazwisko</label>
-          <input type="text" id="name" name="name" required>
-        </div>
-        <div class="form-row">
-          <label for="email" data-i18n="contact.formEmail">Adres e-mail</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div class="form-row">
-          <label for="language" data-i18n="contact.formLang">Preferowany język sesji</label>
-          <select id="language" name="language">
-            <option value="pl" data-i18n="contact.formLangPl">Polski</option>
-            <option value="en" data-i18n="contact.formLangEn">English</option>
-          </select>
-        </div>
-        <div class="form-row">
-          <label for="message" data-i18n="contact.formMessage">Co Cię tu przywiodło?</label>
-          <textarea id="message" name="message" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-gold" data-i18n="contact.formSubmit">Wyślij wiadomość</button>
-        <p id="form-status" class="form-status" role="status"></p>
-      </form>
+    <div class="container legal-content">
+      <p data-i18n="legal.privacy.intro">Niniejsza polityka prywatności wyjaśnia, jakie dane osobowe są zbierane podczas korzystania ze strony Empirica oraz w jaki sposób są przetwarzane.</p>
 
-      <aside class="contact-side">
-        <h3 data-i18n="contact.sideTitle">Dane kontaktowe</h3>
-        <div class="item">
-          <span class="label" data-i18n="contact.sideEmailLabel">E-mail</span>
-          <span data-i18n="contact.sideEmailValue">kontakt@empirica-example.com</span>
-        </div>
-        <div class="item">
-          <span class="label" data-i18n="contact.sideInstaLabel">Instagram</span>
-          <span data-i18n="contact.sideInstaValue">@empirica</span>
-        </div>
-        <div class="item">
-          <span class="label" data-i18n="contact.sideLocationLabel">Lokalizacja</span>
-          <span data-i18n="contact.sideLocationValue">Lincoln, Wielka Brytania • sesje wyłącznie online</span>
-        </div>
-        <div class="item">
-          <span class="label" data-i18n="contact.sideResponseLabel">Czas odpowiedzi</span>
-          <span data-i18n="contact.sideResponseValue">2–3 dni robocze</span>
-        </div>
-        <span class="placeholder-flag" data-i18n="contact.flag">Dane przykładowe — uzupełnij prawdziwe przed publikacją</span>
-      </aside>
+      <h2 data-i18n="legal.privacy.s1title">Administrator danych</h2>
+      <p data-i18n="legal.privacy.s1body">Administratorem danych osobowych jest [Imię i Nazwisko / Nazwa działalności], z siedzibą w Lincoln, Wielka Brytania. Kontakt w sprawach ochrony danych: kontakt@empirica-example.com.</p>
+
+      <h2 data-i18n="legal.privacy.s2title">Jakie dane zbieramy</h2>
+      <p data-i18n="legal.privacy.s2body">Poprzez formularz kontaktowy zbieramy: imię i nazwisko, adres e-mail, preferowany język sesji oraz treść wiadomości. Nie zbieramy danych bez Twojej wiedzy ani zgody.</p>
+
+      <h2 data-i18n="legal.privacy.s3title">Cel i podstawa przetwarzania</h2>
+      <p data-i18n="legal.privacy.s3body">Dane są przetwarzane w celu odpowiedzi na zapytanie oraz umówienia sesji, na podstawie Twojej zgody wyrażonej poprzez wysłanie formularza (art. 6 ust. 1 lit. a RODO).</p>
+
+      <h2 data-i18n="legal.privacy.s4title">Odbiorcy danych</h2>
+      <p data-i18n="legal.privacy.s4body">Wiadomości z formularza kontaktowego są przetwarzane przez zewnętrznego dostawcę usługi formularzy (Formspree). Strona jest hostowana przez Vercel Inc. Obaj dostawcy mogą przetwarzać dane zgodnie z własnymi politykami prywatności.</p>
+
+      <h2 data-i18n="legal.privacy.s5title">Okres przechowywania</h2>
+      <p data-i18n="legal.privacy.s5body">Dane przechowywane są przez okres niezbędny do udzielenia odpowiedzi i, w razie umówienia sesji, przez czas trwania współpracy, a następnie zgodnie z obowiązującymi przepisami.</p>
+
+      <h2 data-i18n="legal.privacy.s6title">Twoje prawa</h2>
+      <p data-i18n="legal.privacy.s6body">Masz prawo do dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia oraz wniesienia sprzeciwu. Możesz również wycofać zgodę w dowolnym momencie, kontaktując się pod adresem podanym powyżej.</p>
+
+      <h2 data-i18n="legal.privacy.s7title">Pliki cookies</h2>
+      <p data-i18n="legal.privacy.s7body">Informacje o plikach cookies znajdziesz w naszej Polityce Cookies.</p>
     </div>
   </section>
 

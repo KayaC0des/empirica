@@ -53,8 +53,8 @@ p { margin: 0 0 1.2em; }
   display: block;
   font-family: var(--font-sans);
   font-weight: 500;
-  font-size: .72rem;
-  letter-spacing: .28em;
+  font-size: .9rem;
+  letter-spacing: .24em;
   text-transform: uppercase;
   color: var(--gold);
   margin-bottom: 1.1em;
@@ -268,12 +268,12 @@ section { padding: 100px 0; }
 
 .value-card { text-align: center; }
 .value-card .icon {
-  width: 52px; height: 52px;
-  margin: 0 auto 20px;
+  width: 72px; height: 72px;
+  margin: 0 auto 22px;
   color: var(--gold);
 }
 .value-card h3 { font-size: 1.5rem; }
-.value-card p { color: var(--moss); font-size: .95rem; }
+.value-card p { color: var(--eucalyptus-deep); font-size: 1rem; }
 
 .metaphor-card {
   background: var(--ivory);
@@ -285,7 +285,7 @@ section { padding: 100px 0; }
 .metaphor-card:hover { transform: translateY(-4px); box-shadow: 0 18px 40px rgba(30,59,53,.08); }
 .metaphor-card .icon { width: 60px; height: 60px; margin: 0 auto 22px; color: var(--gold); }
 .metaphor-card h4 { font-size: 1.3rem; margin-bottom: .4em; }
-.metaphor-card p { color: var(--charcoal); font-size: .92rem; opacity: .8; margin: 0; }
+.metaphor-card p { color: var(--eucalyptus-deep); font-size: 1rem; margin: 0; }
 
 blockquote.pull-quote {
   font-family: var(--font-serif);
@@ -490,6 +490,22 @@ blockquote.pull-quote::after { content: '”'; }
   flex-wrap: wrap;
   gap: 10px;
 }
+.footer-legal { display: flex; gap: 18px; flex-wrap: wrap; }
+.footer-legal a { color: rgba(247,244,239,.5); }
+.footer-legal a:hover { color: var(--gold-light); }
+
+/* ==========================================================================
+   Legal pages
+   ========================================================================== */
+.legal-page-header { padding: 60px 0 20px; }
+.legal-content {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 20px 0 90px;
+}
+.legal-content h2 { font-size: 1.4rem; margin-top: 2em; }
+.legal-content h2:first-child { margin-top: 0; }
+.legal-content p { color: var(--charcoal); }
 .social-row { display: flex; gap: 18px; margin-top: 10px; }
 .social-row a svg { width: 26px; height: 26px; color: var(--sage); }
 .social-row a:hover svg { color: var(--gold-light); }
