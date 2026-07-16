@@ -335,7 +335,7 @@ blockquote.pull-quote::after { content: '”'; }
   align-items: center;
   justify-content: center;
 }
-.portrait-frame svg { width: 46%; color: var(--gold); }
+.portrait-frame svg, .portrait-frame img { width: 46%; color: var(--gold); }
 
 /* Steps */
 .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; counter-reset: step; }
