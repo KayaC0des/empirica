@@ -15,6 +15,25 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  const checkIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l6 6L20 6"/></svg>';
+  document.querySelectorAll('.copy-btn').forEach((btn) => {
+    const originalIcon = btn.innerHTML;
+    btn.addEventListener('click', async () => {
+      const text = btn.dataset.copy;
+      try {
+        await navigator.clipboard.writeText(text);
+      } catch (err) {
+        return;
+      }
+      btn.innerHTML = checkIcon;
+      btn.classList.add('is-copied');
+      setTimeout(() => {
+        btn.innerHTML = originalIcon;
+        btn.classList.remove('is-copied');
+      }, 1500);
+    });
+  });
+
   const symbolism = document.querySelector('[data-symbolism]');
   if (symbolism) {
     const items = Array.from(symbolism.querySelectorAll('.symbolism-item'));
