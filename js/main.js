@@ -46,9 +46,9 @@ document.addEventListener('DOMContentLoaded', () => {
       observer.observe(el);
     };
     if (hero) watch(hero, { threshold: 0.1 });
-    // Only counts once the footer has scrolled well into view, so the sidebar
-    // doesn't hide early just because the short CTA section precedes it.
-    if (footer) watch(footer, { threshold: 0, rootMargin: '0px 0px -60% 0px' });
+    // Requires a meaningful chunk of the footer visible (not just a sliver),
+    // so the sidebar doesn't hide early right after the short CTA section.
+    if (footer) watch(footer, { threshold: 0.3 });
   }
 
   const form = document.querySelector('#contact-form');
