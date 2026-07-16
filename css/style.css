@@ -383,10 +383,12 @@ section { padding: 100px 0; }
 .symbolism-panel-header h3 { margin: 0; font-size: 2.1rem; }
 .symbolism-panel-body {
   display: grid;
-  grid-template-columns: 270px 1fr;
+  grid-template-columns: 1fr 270px;
   gap: 32px;
   align-items: center;
 }
+.symbolism-panel-photo { order: 2; }
+.symbolism-panel-text { order: 1; }
 .symbolism-panel-photo {
   aspect-ratio: 1;
   border: 1px solid var(--stone);
