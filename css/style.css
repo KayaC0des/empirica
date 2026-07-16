@@ -398,12 +398,15 @@ section { padding: 100px 0; }
 .symbolism-panel-photo {
   aspect-ratio: 1;
   border: 1px solid var(--stone);
-  background: linear-gradient(160deg, var(--stone), var(--ivory));
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
 }
-.symbolism-panel-photo svg { width: 52%; height: 52%; color: var(--gold); }
+.symbolism-panel-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
 .symbolism-panel-text p { margin: 0; color: var(--charcoal); font-size: 1rem; line-height: 1.75; }
 @media (max-width: 800px) {
   .symbolism { grid-template-columns: 1fr; }
