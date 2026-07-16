@@ -312,6 +312,27 @@ blockquote.pull-quote::after { color: var(--gold); }
 blockquote.pull-quote::before { content: '“'; }
 blockquote.pull-quote::after { content: '”'; }
 
+.quote-with-logo-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+.quote-with-logo-inner .quote-logo { height: 90px; width: auto; flex-shrink: 0; }
+.quote-with-logo-inner .quote-content { text-align: left; }
+.quote-with-logo-inner .pull-quote {
+  color: var(--eucalyptus-deep);
+  text-align: left;
+  margin: 0 0 24px;
+}
+.quote-with-logo-inner .pull-quote::before,
+.quote-with-logo-inner .pull-quote::after { color: var(--gold); }
+@media (max-width: 700px) {
+  .quote-with-logo-inner { flex-direction: column; }
+  .quote-with-logo-inner .quote-content,
+  .quote-with-logo-inner .pull-quote { text-align: center; }
+}
+
 .testimonial {
   background: var(--ivory);
   border-left: 3px solid var(--gold);
