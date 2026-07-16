@@ -360,39 +360,12 @@ section { padding: 100px 0; }
   color: var(--eucalyptus-deep);
 }
 .symbolism-panel {
-  position: relative;
   border: 1px solid var(--stone);
   background: var(--ivory);
-  overflow: hidden;
-}
-.symbolism-panel-item { display: none; position: relative; min-height: 380px; }
-.symbolism-panel-item.is-active { display: block; }
-.symbolism-panel-photo {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-}
-.symbolism-panel-photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 80% center;
-  display: block;
-}
-.symbolism-panel-photo::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to right, var(--ivory) 0%, var(--ivory) 48%, rgba(247,244,239,.75) 65%, transparent 88%);
-  z-index: 1;
-  pointer-events: none;
-}
-.symbolism-panel-content {
-  position: relative;
-  z-index: 2;
   padding: 36px;
-  max-width: 62%;
 }
+.symbolism-panel-item { display: none; }
+.symbolism-panel-item.is-active { display: block; }
 .symbolism-panel-header {
   display: flex;
   align-items: center;
@@ -408,15 +381,30 @@ section { padding: 100px 0; }
 }
 .symbolism-panel-header .symbolism-icon svg { width: 48px; height: 48px; }
 .symbolism-panel-header h3 { margin: 0; font-size: 2.1rem; }
+.symbolism-panel-body {
+  display: grid;
+  grid-template-columns: 270px 1fr;
+  gap: 32px;
+  align-items: center;
+}
+.symbolism-panel-photo {
+  aspect-ratio: 1;
+  border: 1px solid var(--stone);
+  overflow: hidden;
+}
+.symbolism-panel-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
 .symbolism-panel-text p { margin: 0; color: var(--charcoal); font-size: 1rem; line-height: 1.75; }
 @media (max-width: 800px) {
   .symbolism { grid-template-columns: 1fr; }
-  .symbolism-panel-item { min-height: 320px; }
-  .symbolism-panel-content { padding: 26px; max-width: 100%; }
-  .symbolism-panel-photo::after {
-    background: linear-gradient(to bottom, var(--ivory) 0%, var(--ivory) 46%, rgba(247,244,239,.75) 62%, transparent 86%);
-  }
-  .symbolism-panel-photo img { object-position: center 80%; }
+  .symbolism-panel { padding: 26px; }
+  .symbolism-panel-body { grid-template-columns: 1fr; }
+  .symbolism-panel-photo { max-width: 220px; margin: 0 auto; }
 }
 
 blockquote.pull-quote {
