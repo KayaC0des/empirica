@@ -209,8 +209,7 @@ const translations = {
       formError: "Coś poszło nie tak. Spróbuj ponownie lub napisz bezpośrednio na adres e-mail obok.",
       sideEmailLabel: "E-mail",
       sideEmailValue: "empiricaconstellations@gmail.com",
-      sideInstaLabel: "Instagram",
-      sideInstaValue: "@EmpiricaConstellations",
+      sideSocialsLabel: "Media społecznościowe",
       sideLocationLabel: "Lokalizacja",
       sideLocationValue: "Zdalnie • Lincoln, Wielka Brytania",
       flag: "Dane przykładowe — uzupełnij prawdziwe przed publikacją"
@@ -437,8 +436,7 @@ const translations = {
       formError: "Something went wrong. Please try again or email directly using the address alongside.",
       sideEmailLabel: "Email",
       sideEmailValue: "empiricaconstellations@gmail.com",
-      sideInstaLabel: "Instagram",
-      sideInstaValue: "@EmpiricaConstellations",
+      sideSocialsLabel: "Social Media",
       sideLocationLabel: "Location",
       sideLocationValue: "Remote • Lincoln, United Kingdom",
       flag: "Placeholder details — replace with real ones before publishing"
