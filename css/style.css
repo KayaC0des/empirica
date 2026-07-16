@@ -367,11 +367,31 @@ section { padding: 100px 0; }
 }
 .symbolism-panel-item { display: none; position: relative; min-height: 380px; }
 .symbolism-panel-item.is-active { display: block; }
+.symbolism-panel-photo {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.symbolism-panel-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.symbolism-panel-photo::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, var(--ivory) 0%, var(--ivory) 48%, rgba(247,244,239,.75) 65%, transparent 88%);
+  z-index: 1;
+  pointer-events: none;
+}
 .symbolism-panel-content {
   position: relative;
   z-index: 2;
   padding: 36px;
-  padding-right: calc(38% + 30px);
+  max-width: 62%;
 }
 .symbolism-panel-header {
   display: flex;
@@ -388,66 +408,13 @@ section { padding: 100px 0; }
 }
 .symbolism-panel-header .symbolism-icon svg { width: 48px; height: 48px; }
 .symbolism-panel-header h3 { margin: 0; font-size: 2.1rem; }
-.symbolism-panel-photo {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 38%;
-  z-index: 1;
-}
-.symbolism-panel-photo::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -70px;
-  width: 90px;
-  background: linear-gradient(to right, var(--ivory), transparent);
-  z-index: 2;
-  pointer-events: none;
-}
-[data-panel="1"] .symbolism-panel-photo {
-  border-top-left-radius: 70px 35%;
-  border-bottom-left-radius: 25px 20%;
-  overflow: hidden;
-}
-.symbolism-panel-photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-}
 .symbolism-panel-text p { margin: 0; color: var(--charcoal); font-size: 1rem; line-height: 1.75; }
 @media (max-width: 800px) {
   .symbolism { grid-template-columns: 1fr; }
-  .symbolism-panel-item { min-height: 0; }
-  .symbolism-panel-content {
-    padding: 26px;
-    padding-top: 200px;
-  }
-  .symbolism-panel-photo {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: auto;
-    width: auto;
-    height: 180px;
-  }
-  .symbolism-panel-photo::before {
-    top: auto;
-    left: 0;
-    right: 0;
-    bottom: -70px;
-    height: 90px;
-    width: auto;
-    background: linear-gradient(to bottom, var(--ivory), transparent);
-  }
-  [data-panel="1"] .symbolism-panel-photo {
-    border-radius: 0;
-    border-bottom-left-radius: 60% 40px;
-    border-bottom-right-radius: 20% 20px;
+  .symbolism-panel-item { min-height: 320px; }
+  .symbolism-panel-content { padding: 26px; max-width: 100%; }
+  .symbolism-panel-photo::after {
+    background: linear-gradient(to bottom, var(--ivory) 0%, var(--ivory) 46%, rgba(247,244,239,.75) 62%, transparent 86%);
   }
 }
 
