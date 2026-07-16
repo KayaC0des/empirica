@@ -182,7 +182,7 @@ p { margin: 0 0 1.2em; }
   background: radial-gradient(ellipse at 50% 20%, var(--eucalyptus-deep), var(--eucalyptus-dark) 70%);
   color: var(--ivory);
   overflow: hidden;
-  padding: 120px 0 100px;
+  padding: 114px 0 94px;
   text-align: center;
 }
 .hero.hero-page { padding: 90px 0 70px; }
@@ -198,7 +198,7 @@ p { margin: 0 0 1.2em; }
   pointer-events: none;
 }
 .hero-inner { position: relative; z-index: 1; max-width: 720px; margin: 0 auto; }
-.hero-mark { width: 74px; height: 74px; margin: 0 auto 28px; }
+.hero-mark { height: 100px; width: auto; margin: 0 auto 14px; }
 .hero h1 {
   color: var(--ivory);
   font-size: clamp(2.6rem, 6vw, 4.2rem);
