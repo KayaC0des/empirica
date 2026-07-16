@@ -185,7 +185,13 @@ p { margin: 0 0 1.2em; }
   padding: 114px 0 94px;
   text-align: center;
 }
-.hero.hero-page { padding: 90px 0 70px; }
+.hero.hero-page {
+  padding: 90px 0 70px;
+  min-height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .hero.hero-photo {
   --hero-photo: url('../assets/hero-photo.jpg');
   background:
