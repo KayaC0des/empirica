@@ -228,7 +228,7 @@ p { margin: 0 0 1.2em; }
 }
 .hero.parallax-hero .parallax-layer {
   position: absolute;
-  inset: -15% 0;
+  inset: -45% 0;
   background:
     linear-gradient(180deg, rgba(30,59,53,.68), rgba(30,59,53,.86)),
     var(--hero-photo) center 35%/cover no-repeat;
@@ -383,14 +383,20 @@ section { padding: 100px 0; }
 .symbolism-panel-header h3 { margin: 0; font-size: 2.1rem; }
 .symbolism-panel-body {
   display: grid;
-  grid-template-columns: 270px 1fr;
+  grid-template-columns: 1fr 270px;
   gap: 32px;
   align-items: center;
 }
+.symbolism-panel-photo { order: 2; }
+.symbolism-panel-text { order: 1; }
 .symbolism-panel-photo {
   aspect-ratio: 1;
   border: 1px solid var(--stone);
   overflow: hidden;
+}
+[data-panel="1"] .symbolism-panel-photo {
+  border-radius: 8% 22% 10% 26% / 20% 10% 24% 12%;
+  border-color: var(--moss);
 }
 .symbolism-panel-photo img {
   width: 100%;
