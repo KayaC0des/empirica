@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const carousel = document.querySelector('[data-carousel]');
   if (carousel) {
+    const track = carousel.querySelector('.testimonial-track');
     const slides = Array.from(carousel.querySelectorAll('.testimonial-slide'));
     const dots = Array.from(carousel.querySelectorAll('.carousel-dot'));
     const prevBtn = carousel.querySelector('.carousel-prev');
@@ -26,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const show = (index) => {
       current = (index + slides.length) % slides.length;
-      slides.forEach((slide, i) => slide.classList.toggle('is-active', i === current));
+      track.style.transform = `translateX(-${current * 100}%)`;
       dots.forEach((dot, i) => dot.classList.toggle('is-active', i === current));
     };
 

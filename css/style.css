@@ -377,10 +377,18 @@ blockquote.pull-quote::after { content: '”'; }
   position: relative;
   max-width: 680px;
   margin: 0 auto;
-  padding: 0 56px;
+  padding: 0 84px;
 }
-.testimonial-slide { display: none; }
-.testimonial-slide.is-active { display: block; }
+.testimonial-viewport { overflow: hidden; }
+.testimonial-track {
+  display: flex;
+  transition: transform .65s cubic-bezier(.4, 0, .2, 1);
+}
+.testimonial-slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
 .carousel-arrow {
   position: absolute;
   top: 40%;
@@ -420,7 +428,7 @@ blockquote.pull-quote::after { content: '”'; }
 }
 .carousel-dot.is-active { background: var(--gold); transform: scale(1.3); }
 @media (max-width: 600px) {
-  .testimonial-carousel { padding: 0 44px; }
+  .testimonial-carousel { padding: 0 56px; }
   .carousel-arrow { width: 34px; height: 34px; }
 }
 .placeholder-flag {
@@ -465,8 +473,8 @@ blockquote.pull-quote::after { content: '”'; }
   top: 29px;
   left: 12.5%;
   right: 12.5%;
-  height: 0;
-  border-top: 2px dashed var(--gold);
+  height: 2px;
+  background-image: repeating-linear-gradient(to right, var(--gold) 0, var(--gold) 8px, transparent 8px, transparent 32px);
   z-index: 0;
 }
 .step { text-align: center; position: relative; z-index: 1; }
