@@ -187,9 +187,10 @@ p { margin: 0 0 1.2em; }
 }
 .hero.hero-page { padding: 90px 0 70px; }
 .hero.hero-photo {
+  --hero-photo: url('../assets/hero-photo.jpg');
   background:
     linear-gradient(180deg, rgba(30,59,53,.68), rgba(30,59,53,.86)),
-    url('../assets/hero-photo.jpg') center 35%/cover no-repeat;
+    var(--hero-photo) center 35%/cover no-repeat;
 }
 .hero-mist {
   position: absolute;
