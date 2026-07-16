@@ -198,6 +198,11 @@ p { margin: 0 0 1.2em; }
     linear-gradient(180deg, rgba(30,59,53,.68), rgba(30,59,53,.86)),
     var(--hero-photo) center 35%/cover no-repeat;
 }
+.hero.hero-photo.hero-photo-centered {
+  background:
+    linear-gradient(180deg, rgba(30,59,53,.68), rgba(30,59,53,.86)),
+    var(--hero-photo) center center/cover no-repeat;
+}
 .hero-mist {
   position: absolute;
   inset: 0;
