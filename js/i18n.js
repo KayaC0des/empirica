@@ -191,9 +191,6 @@ const translations = {
       lede: "Napisz kilka słów o tym, z czym się zgłaszasz. Odpowiem w ciągu 2–3 dni roboczych.",
       formName: "Imię i nazwisko",
       formEmail: "Adres e-mail",
-      formLang: "Preferowany język sesji",
-      formLangPl: "Polski",
-      formLangEn: "English",
       formMessage: "Co Cię tu przywiodło?",
       formSubmit: "Wyślij wiadomość",
       formSuccess: "Dziękuję za wiadomość. Odpowiem najszybciej, jak to możliwe.",
@@ -413,9 +410,6 @@ const translations = {
       lede: "Write a few words about what brings you here. I'll reply within 2–3 business days.",
       formName: "Full name",
       formEmail: "Email address",
-      formLang: "Preferred session language",
-      formLangPl: "Polski",
-      formLangEn: "English",
       formMessage: "What brings you here?",
       formSubmit: "Send Message",
       formSuccess: "Thank you for your message. I'll reply as soon as possible.",
@@ -471,9 +465,6 @@ function empiricaApplyLanguage(lang) {
   document.querySelectorAll('.lang-switch button').forEach((btn) => {
     btn.setAttribute('aria-current', btn.dataset.lang === lang ? 'true' : 'false');
   });
-
-  const sessionLangSelect = document.querySelector('#language');
-  if (sessionLangSelect) sessionLangSelect.value = lang;
 
   localStorage.setItem('empirica_lang', lang);
 }
