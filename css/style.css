@@ -104,6 +104,12 @@ p { margin: 0 0 1.2em; }
 .btn-outline:hover { background: var(--gold); color: var(--eucalyptus-dark); }
 .on-dark .btn-outline { border-color: var(--sage); color: var(--ivory); }
 .on-dark .btn-outline:hover { background: var(--sage); color: var(--eucalyptus-dark); }
+.btn-outline-deep {
+  background: transparent;
+  border-color: var(--eucalyptus-deep);
+  color: var(--eucalyptus-deep);
+}
+.btn-outline-deep:hover { background: var(--eucalyptus-deep); color: var(--gold-light); }
 
 /* ==========================================================================
    Header / Nav
@@ -312,26 +318,26 @@ blockquote.pull-quote::after { color: var(--gold); }
 blockquote.pull-quote::before { content: '“'; }
 blockquote.pull-quote::after { content: '”'; }
 
-.quote-with-logo-inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 48px;
+.believe-photo {
+  background:
+    linear-gradient(180deg, rgba(30,59,53,.7), rgba(30,59,53,.82)),
+    url('../assets/about-believe.jpg') center/cover no-repeat;
 }
-.quote-with-logo-inner .quote-logo { height: 90px; width: auto; flex-shrink: 0; }
-.quote-with-logo-inner .quote-content { text-align: left; }
-.quote-with-logo-inner .pull-quote {
-  color: var(--eucalyptus-deep);
-  text-align: left;
-  margin: 0 0 24px;
+
+/* Watermark logo behind a dark section's content */
+.section-watermark { position: relative; overflow: hidden; }
+.section-watermark .watermark-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 260px;
+  width: auto;
+  opacity: .08;
+  pointer-events: none;
+  z-index: 0;
 }
-.quote-with-logo-inner .pull-quote::before,
-.quote-with-logo-inner .pull-quote::after { color: var(--gold); }
-@media (max-width: 700px) {
-  .quote-with-logo-inner { flex-direction: column; }
-  .quote-with-logo-inner .quote-content,
-  .quote-with-logo-inner .pull-quote { text-align: center; }
-}
+.section-watermark > .container { position: relative; z-index: 1; }
 
 .testimonial {
   background: var(--ivory);
