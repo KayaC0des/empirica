@@ -15,6 +15,18 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  const symbolism = document.querySelector('[data-symbolism]');
+  if (symbolism) {
+    const items = Array.from(symbolism.querySelectorAll('.symbolism-item'));
+    const panels = Array.from(symbolism.querySelectorAll('.symbolism-panel-item'));
+    items.forEach((item, i) => {
+      item.addEventListener('click', () => {
+        items.forEach((it, j) => it.classList.toggle('is-active', j === i));
+        panels.forEach((p, j) => p.classList.toggle('is-active', j === i));
+      });
+    });
+  }
+
   const carousel = document.querySelector('[data-carousel]');
   if (carousel) {
     const track = carousel.querySelector('.testimonial-track');

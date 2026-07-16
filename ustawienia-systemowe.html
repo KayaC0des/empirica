@@ -22,8 +22,8 @@
     <nav class="nav-links" id="navLinks">
       <a href="index.html" data-i18n="nav.home">Strona główna</a>
       <a href="o-mnie.html" data-i18n="nav.about">O mnie</a>
-      <a href="oferta.html" data-i18n="nav.offer">Oferta</a>
       <a href="ustawienia-systemowe.html" data-i18n="nav.constellations" aria-current="page">Ustawienia systemowe</a>
+      <a href="oferta.html" data-i18n="nav.offer">Oferta</a>
       <a href="kontakt.html" data-i18n="nav.contact">Kontakt</a>
     </nav>
     <div class="nav-right">
@@ -54,7 +54,8 @@
     </div>
   </section>
 
-  <section>
+  <section class="section-watermark">
+    <img src="assets/logo.png" alt="" class="watermark-logo">
     <div class="container">
       <div class="lede-block">
         <p data-i18n="constellations.p1" style="font-size:1.1rem;">Ustawienia systemowe to metoda pracy, która pozwala zobaczyć ukryte wzorce i lojalności działające w rodzinie, relacji lub organizacji — często poza świadomością osób, których dotyczą.</p>
@@ -68,13 +69,32 @@
       <div class="lede-block">
         <h2 data-i18n="constellations.helpTitle">W czym mogą pomóc</h2>
       </div>
-      <ul class="offer-list" style="max-width:640px;margin:0 auto;">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12l6 6L20 6"/></svg><span data-i18n="constellations.help1">Powtarzające się wzorce w relacjach i rodzinie</span></li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12l6 6L20 6"/></svg><span data-i18n="constellations.help2">Trudności w podejmowaniu decyzji</span></li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12l6 6L20 6"/></svg><span data-i18n="constellations.help3">Poczucie utknięcia w miejscu, mimo starań</span></li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12l6 6L20 6"/></svg><span data-i18n="constellations.help4">Żałoba, strata i niedokończone sprawy rodzinne</span></li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12l6 6L20 6"/></svg><span data-i18n="constellations.help5">Dynamiki w zespole lub organizacji</span></li>
-      </ul>
+      <div class="tile-grid" style="max-width:920px;margin:0 auto;">
+        <div class="tile">
+          <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><path d="M34 16a14 14 0 1 0 3 9"/><path d="M38 10v8h-8"/></svg>
+          <span data-i18n="constellations.help1">Powtarzające się wzorce w relacjach i rodzinie</span>
+        </div>
+        <div class="tile">
+          <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><path d="M24 8v14M24 22c-6 6-10 10-10 16M24 22c6 6 10 10 10 16"/><circle cx="24" cy="8" r="1.6" fill="currentColor" stroke="none"/><circle cx="14" cy="40" r="1.6" fill="currentColor" stroke="none"/><circle cx="34" cy="40" r="1.6" fill="currentColor" stroke="none"/></svg>
+          <span data-i18n="constellations.help2">Trudności w podejmowaniu decyzji</span>
+        </div>
+        <div class="tile">
+          <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><path d="M24 10c8 0 12 6 8 12-3 4.5-10 3-9-2 .6-3 4-3.5 5-1"/><circle cx="24" cy="10" r="1.6" fill="currentColor" stroke="none"/></svg>
+          <span data-i18n="constellations.help3">Poczucie utknięcia w miejscu, mimo starań</span>
+        </div>
+        <div class="tile">
+          <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><path d="M24 8c8 3 12 10 9 18-6 3-13-1-15-9-1.5-6 1-8 6-9z"/><path d="M24 10c-1 7-1 14 3 20"/></svg>
+          <span data-i18n="constellations.help4">Żałoba, strata i niedokończone sprawy rodzinne</span>
+        </div>
+        <div class="tile">
+          <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="18" cy="20" r="8"/><circle cx="30" cy="20" r="8"/><circle cx="24" cy="30" r="8"/></svg>
+          <span data-i18n="constellations.help5">Dynamiki w zespole lub organizacji</span>
+        </div>
+        <div class="tile">
+          <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><path d="M34 30A14 14 0 1 1 30 10"/><circle cx="34" cy="10" r="1.8" fill="currentColor" stroke="none"/></svg>
+          <span data-i18n="constellations.help6">Poczucie braku przynależności lub bycia outsiderem w rodzinie</span>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -85,36 +105,87 @@
         <h2 data-i18n="constellations.metaphorsTitle">Symbolika ustawień</h2>
         <p data-i18n="constellations.metaphorsLede">Kilka obrazów, które towarzyszą tej pracy.</p>
       </div>
-      <div class="grid-3">
-        <div class="metaphor-card">
-          <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M24 6v14M24 20c-6 4-8 10-10 20M24 20c6 4 8 10 10 20M24 20c-3 6-3 14-2 22M24 20c3 6 3 14 2 22"/></svg>
-          <h4 data-i18n="constellations.m1.title">Korzenie</h4>
-          <p data-i18n="constellations.m1.body">To, czego nie widzimy, często wpływa na nasze życie najbardziej.</p>
+      <div class="symbolism" data-symbolism>
+        <div class="symbolism-nav">
+          <button type="button" class="symbolism-item is-active" data-target="0">
+            <span class="symbolism-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><path d="M24 6v12M24 18c-5 4-7 9-9 18M24 18c5 4 7 9 9 18M24 18c-2.5 5-2.5 12-1.5 20M24 18c2.5 5 2.5 12 1.5 20"/></svg></span>
+            <span class="symbolism-label" data-i18n="constellations.m1.title">Korzenie</span>
+          </button>
+          <button type="button" class="symbolism-item" data-target="1">
+            <span class="symbolism-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><path d="M12 34c0-8 4-14 6-14s6 6 6 14"/><path d="M24 38c0-10 5-17 8-17s8 7 8 17"/><path d="M6 38c0-7 3-12 5-12s5 5 5 12"/></svg></span>
+            <span class="symbolism-label" data-i18n="constellations.m2.title">Las</span>
+          </button>
+          <button type="button" class="symbolism-item" data-target="2">
+            <span class="symbolism-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3"><ellipse cx="24" cy="38" rx="15" ry="4.5"/><ellipse cx="24" cy="28" rx="10" ry="3.8"/><ellipse cx="24" cy="19" rx="6" ry="3"/></svg></span>
+            <span class="symbolism-label" data-i18n="constellations.m3.title">Kamienie</span>
+          </button>
+          <button type="button" class="symbolism-item" data-target="3">
+            <span class="symbolism-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><path d="M4 20c6-6 10 6 16 0s10 6 16 0s6-4 8-2"/><path d="M4 28c6-6 10 6 16 0s10 6 16 0s6-4 8-2"/></svg></span>
+            <span class="symbolism-label" data-i18n="constellations.m4.title">Strumień</span>
+          </button>
+          <button type="button" class="symbolism-item" data-target="4">
+            <span class="symbolism-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M24 6c12 4 18 14 14 26-10 4-20-2-24-14-2-6 0-10 10-12z"/><path d="M24 8c-2 10-2 20 4 30"/></svg></span>
+            <span class="symbolism-label" data-i18n="constellations.m5.title">Liść</span>
+          </button>
         </div>
-        <div class="metaphor-card">
-          <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"><path d="M12 34l6-14 6 14z"/><path d="M24 38l7-17 7 17z"/><path d="M6 38l6-13 6 13z"/><line x1="6" y1="38" x2="42" y2="38"/></svg>
-          <h4 data-i18n="constellations.m2.title">Las</h4>
-          <p data-i18n="constellations.m2.body">Miejsce w systemie.</p>
+        <div class="symbolism-panel">
+          <div class="symbolism-panels">
+            <div class="symbolism-panel-item is-active" data-panel="0">
+              <div class="symbolism-panel-header">
+                <span class="symbolism-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><path d="M24 6v12M24 18c-5 4-7 9-9 18M24 18c5 4 7 9 9 18M24 18c-2.5 5-2.5 12-1.5 20M24 18c2.5 5 2.5 12 1.5 20"/></svg></span>
+                <h3 data-i18n="constellations.m1.title">Korzenie</h3>
+              </div>
+              <div class="symbolism-panel-body">
+                <div class="symbolism-panel-photo"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"><path d="M24 6v12M24 18c-5 4-7 9-9 18M24 18c5 4 7 9 9 18M24 18c-2.5 5-2.5 12-1.5 20M24 18c2.5 5 2.5 12 1.5 20"/></svg></div>
+                <div class="symbolism-panel-text"><p data-i18n="constellations.m1.long">Korzenie reprezentują to, co dzieje się poza naszą świadomością — historie, lojalności i wzorce przekazywane z pokolenia na pokolenie. Nawet gdy o nich nie wiemy, kształtują nasze decyzje i relacje.</p></div>
+              </div>
+            </div>
+            <div class="symbolism-panel-item" data-panel="1">
+              <div class="symbolism-panel-header">
+                <span class="symbolism-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><path d="M12 34c0-8 4-14 6-14s6 6 6 14"/><path d="M24 38c0-10 5-17 8-17s8 7 8 17"/><path d="M6 38c0-7 3-12 5-12s5 5 5 12"/></svg></span>
+                <h3 data-i18n="constellations.m2.title">Las</h3>
+              </div>
+              <div class="symbolism-panel-body">
+                <div class="symbolism-panel-photo"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"><path d="M12 34c0-8 4-14 6-14s6 6 6 14"/><path d="M24 38c0-10 5-17 8-17s8 7 8 17"/><path d="M6 38c0-7 3-12 5-12s5 5 5 12"/></svg></div>
+                <div class="symbolism-panel-text"><p data-i18n="constellations.m2.long">Las pokazuje, że każdy element ma swoje miejsce i przestrzeń do wzrostu. Kiedy znajdujemy właściwe miejsce w swoim systemie, napięcie ustępuje miejsca spokojowi.</p></div>
+              </div>
+            </div>
+            <div class="symbolism-panel-item" data-panel="2">
+              <div class="symbolism-panel-header">
+                <span class="symbolism-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3"><ellipse cx="24" cy="38" rx="15" ry="4.5"/><ellipse cx="24" cy="28" rx="10" ry="3.8"/><ellipse cx="24" cy="19" rx="6" ry="3"/></svg></span>
+                <h3 data-i18n="constellations.m3.title">Kamienie</h3>
+              </div>
+              <div class="symbolism-panel-body">
+                <div class="symbolism-panel-photo"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.1"><ellipse cx="24" cy="38" rx="15" ry="4.5"/><ellipse cx="24" cy="28" rx="10" ry="3.8"/><ellipse cx="24" cy="19" rx="6" ry="3"/></svg></div>
+                <div class="symbolism-panel-text"><p data-i18n="constellations.m3.long">Kamienie ułożone w naturalny sposób symbolizują porządek — nie sztywne zasady, lecz układ, w którym każda rzecz jest tam, gdzie powinna być. Porządek w systemie przynosi ulgę.</p></div>
+              </div>
+            </div>
+            <div class="symbolism-panel-item" data-panel="3">
+              <div class="symbolism-panel-header">
+                <span class="symbolism-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><path d="M4 20c6-6 10 6 16 0s10 6 16 0s6-4 8-2"/><path d="M4 28c6-6 10 6 16 0s10 6 16 0s6-4 8-2"/></svg></span>
+                <h3 data-i18n="constellations.m4.title">Strumień</h3>
+              </div>
+              <div class="symbolism-panel-body">
+                <div class="symbolism-panel-photo"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"><path d="M4 20c6-6 10 6 16 0s10 6 16 0s6-4 8-2"/><path d="M4 28c6-6 10 6 16 0s10 6 16 0s6-4 8-2"/></svg></div>
+                <div class="symbolism-panel-text"><p data-i18n="constellations.m4.long">Strumień omijający przeszkody pokazuje, jak energia w systemie szuka drogi do przodu. Kiedy pozwalamy jej płynąć, zamiast się jej opierać, zmiana staje się możliwa.</p></div>
+              </div>
+            </div>
+            <div class="symbolism-panel-item" data-panel="4">
+              <div class="symbolism-panel-header">
+                <span class="symbolism-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M24 6c12 4 18 14 14 26-10 4-20-2-24-14-2-6 0-10 10-12z"/><path d="M24 8c-2 10-2 20 4 30"/></svg></span>
+                <h3 data-i18n="constellations.m5.title">Liść</h3>
+              </div>
+              <div class="symbolism-panel-body">
+                <div class="symbolism-panel-photo"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.1"><path d="M24 6c12 4 18 14 14 26-10 4-20-2-24-14-2-6 0-10 10-12z"/><path d="M24 8c-2 10-2 20 4 30"/></svg></div>
+                <div class="symbolism-panel-text"><p data-i18n="constellations.m5.long">Pojedynczy liść unoszący się na wodzie przypomina, że każda historia — nawet ta trudna czy zapomniana — zasługuje na miejsce i uznanie w opowieści rodziny.</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-actions" style="margin-top:28px; justify-content:flex-start;">
+            <a href="kontakt.html" class="btn btn-gold" data-i18n="constellations.cta">Umów sesję</a>
+            <a href="oferta.html" class="btn btn-outline-deep" data-i18n="nav.offer">Oferta</a>
+          </div>
         </div>
-        <div class="metaphor-card">
-          <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="24" cy="38" rx="16" ry="5"/><ellipse cx="24" cy="28" rx="11" ry="4.2"/><ellipse cx="24" cy="19" rx="6.5" ry="3.4"/></svg>
-          <h4 data-i18n="constellations.m3.title">Kamienie</h4>
-          <p data-i18n="constellations.m3.body">Porządek.</p>
-        </div>
-        <div class="metaphor-card">
-          <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 20c6-6 10 6 16 0s10 6 16 0s6-4 8-2"/><path d="M4 28c6-6 10 6 16 0s10 6 16 0s6-4 8-2"/></svg>
-          <h4 data-i18n="constellations.m4.title">Strumień</h4>
-          <p data-i18n="constellations.m4.body">Przepływ.</p>
-        </div>
-        <div class="metaphor-card">
-          <svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M24 6c12 4 18 14 14 26-10 4-20-2-24-14-2-6 0-10 10-12z"/><path d="M24 8c-2 10-2 20 4 30"/></svg>
-          <h4 data-i18n="constellations.m5.title">Liść</h4>
-          <p data-i18n="constellations.m5.body">Każda historia ma swoje miejsce.</p>
-        </div>
-      </div>
-      <div class="hero-actions" style="margin-top:44px;">
-        <a href="kontakt.html" class="btn btn-gold" data-i18n="constellations.cta">Umów sesję</a>
-        <a href="oferta.html" class="btn btn-outline-deep" data-i18n="nav.offer">Oferta</a>
       </div>
     </div>
   </section>
@@ -139,13 +210,13 @@
       <div class="footer-col">
         <h4 data-i18n="footer.navTitle">Nawigacja</h4>
         <a href="o-mnie.html" data-i18n="nav.about">O mnie</a>
-        <a href="oferta.html" data-i18n="nav.offer">Oferta</a>
         <a href="ustawienia-systemowe.html" data-i18n="nav.constellations">Ustawienia systemowe</a>
+        <a href="oferta.html" data-i18n="nav.offer">Oferta</a>
         <a href="kontakt.html" data-i18n="nav.contact">Kontakt</a>
       </div>
       <div class="footer-col">
         <h4 data-i18n="footer.contactTitle">Kontakt</h4>
-        <span>kontakt@empirica-example.com</span>
+        <span>empiricaconstellations@gmail.com</span>
         <span data-i18n="footer.location">Sesje online • Lincoln, Wielka Brytania</span>
       </div>
     </div>

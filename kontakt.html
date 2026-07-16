@@ -22,8 +22,8 @@
     <nav class="nav-links" id="navLinks">
       <a href="index.html" data-i18n="nav.home">Strona główna</a>
       <a href="o-mnie.html" data-i18n="nav.about">O mnie</a>
-      <a href="oferta.html" data-i18n="nav.offer">Oferta</a>
       <a href="ustawienia-systemowe.html" data-i18n="nav.constellations">Ustawienia systemowe</a>
+      <a href="oferta.html" data-i18n="nav.offer">Oferta</a>
       <a href="kontakt.html" data-i18n="nav.contact" aria-current="page">Kontakt</a>
     </nav>
     <div class="nav-right">
@@ -63,15 +63,15 @@
       -->
       <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
         <div class="form-row">
-          <label for="name" data-i18n="contact.formName">Imię i nazwisko</label>
+          <label for="name"><span data-i18n="contact.formName">Imię i nazwisko</span> *</label>
           <input type="text" id="name" name="name" required>
         </div>
         <div class="form-row">
-          <label for="email" data-i18n="contact.formEmail">Adres e-mail</label>
+          <label for="email"><span data-i18n="contact.formEmail">Adres e-mail</span> *</label>
           <input type="email" id="email" name="email" required>
         </div>
         <div class="form-row">
-          <label for="message" data-i18n="contact.formMessage">Co Cię tu przywiodło?</label>
+          <label for="message"><span data-i18n="contact.formMessage">Co Cię tu przywiodło?</span> *</label>
           <textarea id="message" name="message" required></textarea>
         </div>
         <button type="submit" class="btn btn-gold" data-i18n="contact.formSubmit">Wyślij wiadomość</button>
@@ -79,10 +79,9 @@
       </form>
 
       <aside class="contact-side">
-        <h3 data-i18n="contact.sideTitle">Dane kontaktowe</h3>
         <div class="item">
           <span class="label" data-i18n="contact.sideEmailLabel">E-mail</span>
-          <span data-i18n="contact.sideEmailValue">kontakt@empirica-example.com</span>
+          <span data-i18n="contact.sideEmailValue">empiricaconstellations@gmail.com</span>
         </div>
         <div class="item">
           <span class="label" data-i18n="contact.sideInstaLabel">Instagram</span>
@@ -90,11 +89,7 @@
         </div>
         <div class="item">
           <span class="label" data-i18n="contact.sideLocationLabel">Lokalizacja</span>
-          <span data-i18n="contact.sideLocationValue">Lincoln, Wielka Brytania • sesje wyłącznie online</span>
-        </div>
-        <div class="item">
-          <span class="label" data-i18n="contact.sideResponseLabel">Czas odpowiedzi</span>
-          <span data-i18n="contact.sideResponseValue">2–3 dni robocze</span>
+          <span data-i18n="contact.sideLocationValue">Zdalnie • Lincoln, Wielka Brytania</span>
         </div>
         <span class="placeholder-flag" data-i18n="contact.flag">Dane przykładowe — uzupełnij prawdziwe przed publikacją</span>
       </aside>
@@ -121,13 +116,13 @@
       <div class="footer-col">
         <h4 data-i18n="footer.navTitle">Nawigacja</h4>
         <a href="o-mnie.html" data-i18n="nav.about">O mnie</a>
-        <a href="oferta.html" data-i18n="nav.offer">Oferta</a>
         <a href="ustawienia-systemowe.html" data-i18n="nav.constellations">Ustawienia systemowe</a>
+        <a href="oferta.html" data-i18n="nav.offer">Oferta</a>
         <a href="kontakt.html" data-i18n="nav.contact">Kontakt</a>
       </div>
       <div class="footer-col">
         <h4 data-i18n="footer.contactTitle">Kontakt</h4>
-        <span>kontakt@empirica-example.com</span>
+        <span>empiricaconstellations@gmail.com</span>
         <span data-i18n="footer.location">Sesje online • Lincoln, Wielka Brytania</span>
       </div>
     </div>

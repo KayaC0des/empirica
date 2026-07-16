@@ -26,7 +26,7 @@ const translations = {
         title: "Polityka Prywatności",
         intro: "Niniejsza polityka prywatności wyjaśnia, jakie dane osobowe są zbierane podczas korzystania ze strony Empirica oraz w jaki sposób są przetwarzane.",
         s1title: "Administrator danych",
-        s1body: "Administratorem danych osobowych jest [Imię i Nazwisko / Nazwa działalności], z siedzibą w Lincoln, Wielka Brytania. Kontakt w sprawach ochrony danych: kontakt@empirica-example.com.",
+        s1body: "Administratorem danych osobowych jest [Imię i Nazwisko / Nazwa działalności], z siedzibą w Lincoln, Wielka Brytania. Kontakt w sprawach ochrony danych: empiricaconstellations@gmail.com.",
         s2title: "Jakie dane zbieramy",
         s2body: "Poprzez formularz kontaktowy zbieramy: imię i nazwisko, adres e-mail, preferowany język sesji oraz treść wiadomości. Nie zbieramy danych bez Twojej wiedzy ani zgody.",
         s3title: "Cel i podstawa przetwarzania",
@@ -54,7 +54,7 @@ const translations = {
         s5title: "Płatności",
         s5body: "[Uzupełnij informacje o sposobie i terminie płatności za sesję.]",
         s6title: "Reklamacje",
-        s6body: "Wszelkie uwagi i reklamacje dotyczące świadczonych usług prosimy kierować na adres kontakt@empirica-example.com.",
+        s6body: "Wszelkie uwagi i reklamacje dotyczące świadczonych usług prosimy kierować na adres empiricaconstellations@gmail.com.",
         s7title: "Postanowienia końcowe",
         s7body: "W sprawach nieuregulowanych niniejszym regulaminem zastosowanie mają obowiązujące przepisy prawa."
       },
@@ -73,6 +73,7 @@ const translations = {
     },
     home: {
       hero: {
+        subtitle: "Systemic Constellations • Ustawienia Systemowe",
         lede: "Odkryj ukryte dynamiki, które wpływają na Twoje relacje, decyzje i życie.",
         cta: "Umów sesję"
       },
@@ -186,13 +187,14 @@ const translations = {
       help3: "Poczucie utknięcia w miejscu, mimo starań",
       help4: "Żałoba, strata i niedokończone sprawy rodzinne",
       help5: "Dynamiki w zespole lub organizacji",
+      help6: "Poczucie braku przynależności lub bycia outsiderem w rodzinie",
       metaphorsTitle: "Symbolika ustawień",
       metaphorsLede: "Kilka obrazów, które towarzyszą tej pracy.",
-      m1: { title: "Korzenie", body: "To, czego nie widzimy, często wpływa na nasze życie najbardziej." },
-      m2: { title: "Las", body: "Miejsce w systemie." },
-      m3: { title: "Kamienie", body: "Porządek." },
-      m4: { title: "Strumień", body: "Przepływ." },
-      m5: { title: "Liść", body: "Każda historia ma swoje miejsce." },
+      m1: { title: "Korzenie", body: "To, czego nie widzimy, często wpływa na nasze życie najbardziej.", long: "Korzenie reprezentują to, co dzieje się poza naszą świadomością — historie, lojalności i wzorce przekazywane z pokolenia na pokolenie. Nawet gdy o nich nie wiemy, kształtują nasze decyzje i relacje." },
+      m2: { title: "Las", body: "Miejsce w systemie.", long: "Las pokazuje, że każdy element ma swoje miejsce i przestrzeń do wzrostu. Kiedy znajdujemy właściwe miejsce w swoim systemie, napięcie ustępuje miejsca spokojowi." },
+      m3: { title: "Kamienie", body: "Porządek.", long: "Kamienie ułożone w naturalny sposób symbolizują porządek — nie sztywne zasady, lecz układ, w którym każda rzecz jest tam, gdzie powinna być. Porządek w systemie przynosi ulgę." },
+      m4: { title: "Strumień", body: "Przepływ.", long: "Strumień omijający przeszkody pokazuje, jak energia w systemie szuka drogi do przodu. Kiedy pozwalamy jej płynąć, zamiast się jej opierać, zmiana staje się możliwa." },
+      m5: { title: "Liść", body: "Każda historia ma swoje miejsce.", long: "Pojedynczy liść unoszący się na wodzie przypomina, że każda historia — nawet ta trudna czy zapomniana — zasługuje na miejsce i uznanie w opowieści rodziny." },
       cta: "Umów sesję"
     },
     contact: {
@@ -205,15 +207,12 @@ const translations = {
       formSubmit: "Wyślij wiadomość",
       formSuccess: "Dziękuję za wiadomość. Odpowiem najszybciej, jak to możliwe.",
       formError: "Coś poszło nie tak. Spróbuj ponownie lub napisz bezpośrednio na adres e-mail obok.",
-      sideTitle: "Dane kontaktowe",
       sideEmailLabel: "E-mail",
-      sideEmailValue: "kontakt@empirica-example.com",
+      sideEmailValue: "empiricaconstellations@gmail.com",
       sideInstaLabel: "Instagram",
       sideInstaValue: "@EmpiricaConstellations",
       sideLocationLabel: "Lokalizacja",
-      sideLocationValue: "Lincoln, Wielka Brytania • sesje wyłącznie online",
-      sideResponseLabel: "Czas odpowiedzi",
-      sideResponseValue: "2–3 dni robocze",
+      sideLocationValue: "Zdalnie • Lincoln, Wielka Brytania",
       flag: "Dane przykładowe — uzupełnij prawdziwe przed publikacją"
     },
     footer: {
@@ -255,7 +254,7 @@ const translations = {
         title: "Privacy Policy",
         intro: "This privacy policy explains what personal data is collected when using the Empirica website, and how it is processed.",
         s1title: "Data Controller",
-        s1body: "The data controller is [Your Name / Business Name], based in Lincoln, United Kingdom. Contact for data protection matters: kontakt@empirica-example.com.",
+        s1body: "The data controller is [Your Name / Business Name], based in Lincoln, United Kingdom. Contact for data protection matters: empiricaconstellations@gmail.com.",
         s2title: "What Data We Collect",
         s2body: "Through the contact form we collect: your name, email address, preferred session language, and the content of your message. We do not collect data without your knowledge or consent.",
         s3title: "Purpose and Legal Basis",
@@ -283,7 +282,7 @@ const translations = {
         s5title: "Payments",
         s5body: "[Fill in details about payment method and timing for sessions.]",
         s6title: "Complaints",
-        s6body: "Any comments or complaints regarding the services provided should be sent to kontakt@empirica-example.com.",
+        s6body: "Any comments or complaints regarding the services provided should be sent to empiricaconstellations@gmail.com.",
         s7title: "Final Provisions",
         s7body: "Matters not covered by these terms are governed by applicable law."
       },
@@ -302,6 +301,7 @@ const translations = {
     },
     home: {
       hero: {
+        subtitle: "Systemic Constellations",
         lede: "Discover the hidden dynamics shaping your relationships, decisions and life.",
         cta: "Book a Session"
       },
@@ -415,13 +415,14 @@ const translations = {
       help3: "A feeling of being stuck despite your efforts",
       help4: "Grief, loss, and unfinished family matters",
       help5: "Dynamics within a team or organisation",
+      help6: "A sense of not belonging, or feeling like an outsider in the family",
       metaphorsTitle: "The Symbolism of Constellations",
       metaphorsLede: "A few images that accompany this work.",
-      m1: { title: "Roots", body: "What we don't see often affects our life the most." },
-      m2: { title: "Forest", body: "A place in the system." },
-      m3: { title: "Stones", body: "Order." },
-      m4: { title: "Stream", body: "Flow." },
-      m5: { title: "Leaf", body: "Every story has its place." },
+      m1: { title: "Roots", body: "What we don't see often affects our life the most.", long: "Roots represent what happens beyond our awareness — the stories, loyalties and patterns passed down through generations. Even when we're unaware of them, they shape our decisions and relationships." },
+      m2: { title: "Forest", body: "A place in the system.", long: "The forest shows that every element has its place and room to grow. When we find our right place within our system, tension gives way to calm." },
+      m3: { title: "Stones", body: "Order.", long: "Stones arranged naturally symbolise order — not rigid rules, but an arrangement where everything is where it belongs. Order within a system brings relief." },
+      m4: { title: "Stream", body: "Flow.", long: "A stream moving around obstacles shows how energy in a system finds its way forward. When we let it flow instead of resisting it, change becomes possible." },
+      m5: { title: "Leaf", body: "Every story has its place.", long: "A single leaf floating on water is a reminder that every story — even a difficult or forgotten one — deserves a place and acknowledgment within the family's narrative." },
       cta: "Book a Session"
     },
     contact: {
@@ -434,15 +435,12 @@ const translations = {
       formSubmit: "Send Message",
       formSuccess: "Thank you for your message. I'll reply as soon as possible.",
       formError: "Something went wrong. Please try again or email directly using the address alongside.",
-      sideTitle: "Contact Details",
       sideEmailLabel: "Email",
-      sideEmailValue: "kontakt@empirica-example.com",
+      sideEmailValue: "empiricaconstellations@gmail.com",
       sideInstaLabel: "Instagram",
       sideInstaValue: "@EmpiricaConstellations",
       sideLocationLabel: "Location",
-      sideLocationValue: "Lincoln, United Kingdom • online sessions only",
-      sideResponseLabel: "Response Time",
-      sideResponseValue: "2–3 business days",
+      sideLocationValue: "Remote • Lincoln, United Kingdom",
       flag: "Placeholder details — replace with real ones before publishing"
     },
     footer: {
