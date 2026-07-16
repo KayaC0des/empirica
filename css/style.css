@@ -335,10 +335,10 @@ section { padding: 100px 0; }
 .symbolism-item {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
   border: 1px solid var(--stone);
   background: var(--ivory);
-  padding: 13px 16px;
+  padding: 14px 18px;
   text-align: left;
   cursor: pointer;
   transition: border-color .2s ease, background .2s ease;
@@ -347,20 +347,16 @@ section { padding: 100px 0; }
 .symbolism-item:hover { border-color: var(--gold); }
 .symbolism-item.is-active { border-color: var(--gold); background: var(--stone); }
 .symbolism-item .symbolism-icon {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border: 1px solid var(--gold);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
   color: var(--gold);
 }
-.symbolism-item .symbolism-icon svg { width: 18px; height: 18px; }
+.symbolism-item .symbolism-icon svg { width: 34px; height: 34px; }
 .symbolism-item .symbolism-label {
   font-family: var(--font-serif);
-  font-size: 1.05rem;
+  font-size: 1.4rem;
   color: var(--eucalyptus-deep);
 }
 .symbolism-panel {
@@ -373,25 +369,21 @@ section { padding: 100px 0; }
 .symbolism-panel-header {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 18px;
   margin-bottom: 26px;
 }
 .symbolism-panel-header .symbolism-icon {
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  border: 1px solid var(--gold);
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--gold);
   flex-shrink: 0;
 }
-.symbolism-panel-header .symbolism-icon svg { width: 22px; height: 22px; }
-.symbolism-panel-header h3 { margin: 0; font-size: 1.5rem; }
+.symbolism-panel-header .symbolism-icon svg { width: 48px; height: 48px; }
+.symbolism-panel-header h3 { margin: 0; font-size: 2.1rem; }
 .symbolism-panel-body {
   display: grid;
-  grid-template-columns: 190px 1fr;
+  grid-template-columns: 270px 1fr;
   gap: 32px;
   align-items: center;
 }
@@ -412,7 +404,7 @@ section { padding: 100px 0; }
   .symbolism { grid-template-columns: 1fr; }
   .symbolism-panel { padding: 26px; }
   .symbolism-panel-body { grid-template-columns: 1fr; }
-  .symbolism-panel-photo { max-width: 160px; margin: 0 auto; }
+  .symbolism-panel-photo { max-width: 220px; margin: 0 auto; }
 }
 
 blockquote.pull-quote {
