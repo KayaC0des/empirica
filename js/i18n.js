@@ -103,9 +103,19 @@ const translations = {
       testimonial: {
         eyebrow: "Głosy",
         title: "Z doświadczenia klientów",
-        quote: "Sesja pomogła mi zobaczyć wzorzec, który powtarzał się w mojej rodzinie od pokoleń. Czuję ulgę i więcej przestrzeni w codziennych decyzjach.",
-        cite: "— Klientka, sesja indywidualna",
-        flag: "Przykładowa opinia — zastąp prawdziwą, za zgodą klienta"
+        flag: "Przykładowe opinie — zastąp prawdziwymi, za zgodą klientów",
+        t1: {
+          quote: "Sesja pomogła mi zobaczyć wzorzec, który powtarzał się w mojej rodzinie od pokoleń. Czuję ulgę i więcej przestrzeni w codziennych decyzjach.",
+          cite: "— Klientka, sesja indywidualna"
+        },
+        t2: {
+          quote: "Dzięki sesji zrozumiałem, dlaczego powtarzałem pewien wzorzec w związkach. To był ważny krok w stronę zmiany.",
+          cite: "— Klient, sesja indywidualna"
+        },
+        t3: {
+          quote: "Nie spodziewałam się, że praca online może być tak głęboka. Po sesji poczułam większy spokój i jasność.",
+          cite: "— Klientka, sesja online"
+        }
       },
       insta: {
         eyebrow: "Instagram",
@@ -162,7 +172,8 @@ const translations = {
       faq3a: "Nie. Wystarczy gotowość, by przyjrzeć się temu, co dzieje się w Twoim życiu.",
       faq4q: "Jakiego sprzętu potrzebuję do sesji online?",
       faq4a: "Stabilnego połączenia internetowego, słuchawek oraz spokojnego miejsca, w którym nikt Ci nie przeszkodzi.",
-      cta: "Umów sesję"
+      cta: "Umów sesję",
+      disclaimer: "* Ustawienia systemowe nie zastępują terapii psychologicznej ani leczenia medycznego. Jeśli zmagasz się z kryzysem psychicznym, skontaktuj się ze specjalistą lub odpowiednimi służbami."
     },
     constellations: {
       eyebrow: "Czym są ustawienia",
@@ -182,7 +193,6 @@ const translations = {
       m3: { title: "Kamienie", body: "Porządek." },
       m4: { title: "Strumień", body: "Przepływ." },
       m5: { title: "Liść", body: "Każda historia ma swoje miejsce." },
-      disclaimer: "Ustawienia systemowe nie zastępują terapii psychologicznej ani leczenia medycznego. Jeśli zmagasz się z kryzysem psychicznym, skontaktuj się ze specjalistą lub odpowiednimi służbami.",
       cta: "Umów sesję"
     },
     contact: {
@@ -322,9 +332,19 @@ const translations = {
       testimonial: {
         eyebrow: "Voices",
         title: "From client experience",
-        quote: "The session helped me see a pattern that had repeated in my family for generations. I feel relief, and more space in my everyday decisions.",
-        cite: "— Client, individual session",
-        flag: "Sample testimonial — replace with a real one, with client consent"
+        flag: "Sample testimonials — replace with real ones, with client consent",
+        t1: {
+          quote: "The session helped me see a pattern that had repeated in my family for generations. I feel relief, and more space in my everyday decisions.",
+          cite: "— Client, individual session"
+        },
+        t2: {
+          quote: "The session helped me understand why I kept repeating a certain pattern in relationships. It was an important step toward change.",
+          cite: "— Client, individual session"
+        },
+        t3: {
+          quote: "I didn't expect online work to be this profound. After the session I felt calmer and clearer.",
+          cite: "— Client, online session"
+        }
       },
       insta: {
         eyebrow: "Instagram",
@@ -381,7 +401,8 @@ const translations = {
       faq3a: "No. All you need is a willingness to look at what's happening in your life.",
       faq4q: "What do I need for an online session?",
       faq4a: "A stable internet connection, headphones, and a quiet space where you won't be disturbed.",
-      cta: "Book a Session"
+      cta: "Book a Session",
+      disclaimer: "* Systemic constellations are not a substitute for psychotherapy or medical treatment. If you are experiencing a mental health crisis, please contact a qualified professional or emergency services."
     },
     constellations: {
       eyebrow: "What Are Constellations",
@@ -401,7 +422,6 @@ const translations = {
       m3: { title: "Stones", body: "Order." },
       m4: { title: "Stream", body: "Flow." },
       m5: { title: "Leaf", body: "Every story has its place." },
-      disclaimer: "Systemic constellations are not a substitute for psychotherapy or medical treatment. If you are experiencing a mental health crisis, please contact a qualified professional or emergency services.",
       cta: "Book a Session"
     },
     contact: {

@@ -15,6 +15,34 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  const carousel = document.querySelector('[data-carousel]');
+  if (carousel) {
+    const slides = Array.from(carousel.querySelectorAll('.testimonial-slide'));
+    const dots = Array.from(carousel.querySelectorAll('.carousel-dot'));
+    const prevBtn = carousel.querySelector('.carousel-prev');
+    const nextBtn = carousel.querySelector('.carousel-next');
+    let current = 0;
+    let timer = null;
+
+    const show = (index) => {
+      current = (index + slides.length) % slides.length;
+      slides.forEach((slide, i) => slide.classList.toggle('is-active', i === current));
+      dots.forEach((dot, i) => dot.classList.toggle('is-active', i === current));
+    };
+
+    const startAutoplay = () => {
+      clearInterval(timer);
+      timer = setInterval(() => show(current + 1), 6000);
+    };
+
+    if (prevBtn) prevBtn.addEventListener('click', () => { show(current - 1); startAutoplay(); });
+    if (nextBtn) nextBtn.addEventListener('click', () => { show(current + 1); startAutoplay(); });
+    dots.forEach((dot, i) => dot.addEventListener('click', () => { show(i); startAutoplay(); }));
+
+    show(0);
+    startAutoplay();
+  }
+
   const parallaxLayer = document.querySelector('.parallax-hero .parallax-layer');
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (parallaxLayer && !prefersReducedMotion) {

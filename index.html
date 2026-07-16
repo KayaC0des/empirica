@@ -138,14 +138,41 @@
         <span class="eyebrow" data-i18n="home.testimonial.eyebrow">Głosy</span>
         <h2 data-i18n="home.testimonial.title">Z doświadczenia klientów</h2>
       </div>
-      <div style="max-width:680px;margin:0 auto;">
-        <div class="testimonial">
-          <p data-i18n="home.testimonial.quote">Sesja pomogła mi zobaczyć wzorzec, który powtarzał się w mojej rodzinie od pokoleń. Czuję ulgę i więcej przestrzeni w codziennych decyzjach.</p>
-          <cite data-i18n="home.testimonial.cite">— Klientka, sesja indywidualna</cite>
+      <div class="testimonial-carousel" data-carousel>
+        <div class="testimonial-track">
+          <div class="testimonial-slide is-active">
+            <div class="testimonial">
+              <p data-i18n="home.testimonial.t1.quote">Sesja pomogła mi zobaczyć wzorzec, który powtarzał się w mojej rodzinie od pokoleń. Czuję ulgę i więcej przestrzeni w codziennych decyzjach.</p>
+              <cite data-i18n="home.testimonial.t1.cite">— Klientka, sesja indywidualna</cite>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial">
+              <p data-i18n="home.testimonial.t2.quote">Dzięki sesji zrozumiałem, dlaczego powtarzałem pewien wzorzec w związkach. To był ważny krok w stronę zmiany.</p>
+              <cite data-i18n="home.testimonial.t2.cite">— Klient, sesja indywidualna</cite>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial">
+              <p data-i18n="home.testimonial.t3.quote">Nie spodziewałam się, że praca online może być tak głęboka. Po sesji poczułam większy spokój i jasność.</p>
+              <cite data-i18n="home.testimonial.t3.cite">— Klientka, sesja online</cite>
+            </div>
+          </div>
         </div>
-        <div style="text-align:center;">
-          <span class="placeholder-flag" data-i18n="home.testimonial.flag">Przykładowa opinia — zastąp prawdziwą, za zgodą klienta</span>
+        <button type="button" class="carousel-arrow carousel-prev" aria-label="Poprzednia opinia / Previous testimonial">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button type="button" class="carousel-arrow carousel-next" aria-label="Następna opinia / Next testimonial">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+        <div class="carousel-dots">
+          <button type="button" class="carousel-dot is-active" data-index="0" aria-label="Opinia 1"></button>
+          <button type="button" class="carousel-dot" data-index="1" aria-label="Opinia 2"></button>
+          <button type="button" class="carousel-dot" data-index="2" aria-label="Opinia 3"></button>
         </div>
+      </div>
+      <div style="text-align:center;">
+        <span class="placeholder-flag" data-i18n="home.testimonial.flag">Przykładowe opinie — zastąp prawdziwymi, za zgodą klientów</span>
       </div>
     </div>
   </section>
