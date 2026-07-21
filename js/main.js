@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const updateParallax = () => {
       const rect = heroSection.getBoundingClientRect();
       if (rect.bottom > 0 && rect.top < window.innerHeight) {
-        parallaxLayer.style.transform = `translateY(${window.scrollY * 0.4}px)`;
+        parallaxLayer.style.transform = `translateY(${window.scrollY * 0.6}px)`;
       }
       ticking = false;
     };

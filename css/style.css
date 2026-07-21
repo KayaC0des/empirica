@@ -434,6 +434,8 @@ blockquote.pull-quote::after { content: '”'; }
     linear-gradient(180deg, rgba(30,59,53,.7), rgba(30,59,53,.82)),
     url('../assets/ready-photo.jpg') center/cover no-repeat;
 }
+.ready-photo h2 { color: var(--gold); }
+.ready-photo p { color: var(--ivory); font-weight: 600; }
 
 /* Watermark logo behind a dark section's content */
 .section-watermark { position: relative; overflow: hidden; }

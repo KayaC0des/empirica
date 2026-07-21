@@ -1,18 +1,18 @@
 const translations = {
   pl: {
     meta: {
-      home: "Empirica — Ustawienia Systemowe",
-      about: "O mnie — Empirica",
-      offer: "Oferta — Empirica",
-      constellations: "Ustawienia Systemowe — Empirica",
-      contact: "Kontakt — Empirica",
-      privacy: "Polityka Prywatności — Empirica",
-      terms: "Regulamin — Empirica",
-      cookies: "Polityka Cookies — Empirica",
-      disclaimer: "Zastrzeżenia prawne — Empirica",
-      accessibility: "Dostępność — Empirica",
-      conduct: "Zasady postępowania — Empirica",
-      recording: "Polityka nagrywania — Empirica"
+      home: "Empirica | Ustawienia Systemowe",
+      about: "O mnie | Empirica",
+      offer: "Oferta | Empirica",
+      constellations: "Ustawienia Systemowe | Empirica",
+      contact: "Kontakt | Empirica",
+      privacy: "Polityka Prywatności | Empirica",
+      terms: "Regulamin | Empirica",
+      cookies: "Polityka Cookies | Empirica",
+      disclaimer: "Zastrzeżenia prawne | Empirica",
+      accessibility: "Dostępność | Empirica",
+      conduct: "Zasady postępowania | Empirica",
+      recording: "Polityka nagrywania | Empirica"
     },
     nav: {
       home: "Strona główna",
@@ -36,7 +36,7 @@ const translations = {
         s3title: "Jak wykorzystujemy Twoje dane",
         s3body: "Twoje dane mogą być wykorzystywane do odpowiadania na zapytania, organizowania i zarządzania rezerwacjami, świadczenia zamówionych sesji, przekazywania istotnych informacji, przetwarzania płatności, prowadzenia dokumentacji zawodowej, ulepszania naszych usług oraz wypełniania obowiązków prawnych.",
         s4title: "Podstawa prawna przetwarzania",
-        s4body: "Zgodnie z brytyjskim RODO (UK GDPR), dane osobowe mogą być przetwarzane na podstawie: umowy — gdy przetwarzanie jest niezbędne do świadczenia zarezerwowanych usług; prawnie uzasadnionego interesu — w celu zarządzania zapytaniami, utrzymywania komunikacji zawodowej i ulepszania usług; oraz zgody — gdy dobrowolnie udostępniasz informacje lub zapisujesz się na przyszłą komunikację.",
+        s4body: "Zgodnie z brytyjskim RODO (UK GDPR), dane osobowe mogą być przetwarzane na podstawie: umowy (gdy przetwarzanie jest niezbędne do świadczenia zarezerwowanych usług); prawnie uzasadnionego interesu (w celu zarządzania zapytaniami, utrzymywania komunikacji zawodowej i ulepszania usług); oraz zgody (gdy dobrowolnie udostępniasz informacje lub zapisujesz się na przyszłą komunikację).",
         s5title: "Dane wrażliwe",
         s5body: "Niektóre informacje udostępniane podczas sesji wspierających dobrostan mogą dotyczyć osobistych doświadczeń, emocji lub samopoczucia. Empirica traktuje takie informacje ze szczególną troską i poufnością. Zawsze to Ty decydujesz, czym się dzielisz, a Empirica nie wymaga ujawniania informacji osobistych ponad to, co jest rozsądnie niezbędne do świadczenia usługi.",
         s6title: "Poufność",
@@ -60,7 +60,7 @@ const translations = {
         s15title: "Zmiany niniejszej Polityki Prywatności",
         s15body: "Niniejsza Polityka Prywatności może być okresowo aktualizowana. Najnowsza wersja będzie publikowana za pośrednictwem odpowiednich kanałów.",
         s16title: "Kontakt",
-        s16body: "W przypadku pytań dotyczących niniejszej Polityki Prywatności lub sposobu przetwarzania Twoich danych, napisz na adres empiricaconstellations@gmail.com. Twoja prywatność ma znaczenie — Empirica dba o tworzenie przestrzeni opartej na zaufaniu, szacunku i dyskrecji."
+        s16body: "W przypadku pytań dotyczących niniejszej Polityki Prywatności lub sposobu przetwarzania Twoich danych, napisz na adres empiricaconstellations@gmail.com. Twoja prywatność ma znaczenie. Empirica dba o tworzenie przestrzeni opartej na zaufaniu, szacunku i dyskrecji."
       },
       terms: {
         title: "Regulamin",
@@ -100,7 +100,7 @@ const translations = {
         s17title: "Prawo właściwe",
         s17body: "Niniejszy Regulamin podlega prawu Anglii i Walii. Wszelkie spory podlegają jurysdykcji sądów Anglii i Walii.",
         s18title: "Kontakt",
-        s18body: "W przypadku pytań dotyczących niniejszego Regulaminu prosimy o kontakt pod adresem empiricaconstellations@gmail.com. Dziękujemy za wybranie Empirica — przestrzeni świadomości, połączenia i znaczącej eksploracji."
+        s18body: "W przypadku pytań dotyczących niniejszego Regulaminu prosimy o kontakt pod adresem empiricaconstellations@gmail.com. Dziękujemy za wybranie Empirica: przestrzeni świadomości, połączenia i znaczącej eksploracji."
       },
       cookies: {
         title: "Polityka Cookies",
@@ -112,7 +112,7 @@ const translations = {
         s3title: "Cookies funkcjonalne",
         s3body: "Te pliki cookies pomagają poprawić Twoje doświadczenie, zapamiętując dokonywane wybory, takie jak preferencje językowe, ustawienia czy wcześniej wybrane opcje.",
         s4title: "Cookies analityczne",
-        s4body: "Te pliki cookies pomagają nam zrozumieć, jak odwiedzający korzystają ze strony — na przykład liczbę odwiedzających, przeglądane strony, wydajność strony i zachowania użytkowników. Pomaga nam to ulepszać stronę i doświadczenie użytkownika. Przykładem mogą być usługi analityczne, takie jak Google Analytics.",
+        s4body: "Te pliki cookies pomagają nam zrozumieć, jak odwiedzający korzystają ze strony, na przykład liczbę odwiedzających, przeglądane strony, wydajność strony i zachowania użytkowników. Pomaga nam to ulepszać stronę i doświadczenie użytkownika. Przykładem mogą być usługi analityczne, takie jak Google Analytics.",
         s5title: "Cookies rezerwacji i płatności",
         s5body: "Jeśli Empirica korzysta z usług zewnętrznych dostawców do planowania wizyt, płatności online lub zarządzania klientami, dostawcy ci mogą wykorzystywać pliki cookies niezbędne do działania swoich usług.",
         s6title: "Cookies marketingowe",
@@ -132,7 +132,7 @@ const translations = {
         title: "Zastrzeżenia prawne",
         intro: "Empirica oferuje komplementarne praktyki wspierające dobrostan, których celem jest wspieranie autorefleksji, świadomości siebie i indywidualnej eksploracji. Usługi oferowane przez Empirica mogą obejmować ustawienia systemowe, uzdrawianie energią Reiki, odczyty Kronik Akaszy, przewodnictwo intuicyjne oraz warsztaty i praktyki refleksyjne dotyczące dobrostanu.",
         s1title: "Charakter usług",
-        s1body: "Sesje oferowane przez Empirica mają na celu stworzenie wspierającej przestrzeni do refleksji, świadomości, relaksu, osobistej eksploracji oraz przyglądania się perspektywom i wzorcom. Sesje opierają się na indywidualnym doświadczeniu i osobistej interpretacji — doświadczenie każdej osoby może być inne.",
+        s1body: "Sesje oferowane przez Empirica mają na celu stworzenie wspierającej przestrzeni do refleksji, świadomości, relaksu, osobistej eksploracji oraz przyglądania się perspektywom i wzorcom. Sesje opierają się na indywidualnym doświadczeniu i osobistej interpretacji. Doświadczenie każdej osoby może być inne.",
         s2title: "Nie jest to leczenie medyczne ani psychologiczne",
         s2body: "Usługi Empirica są komplementarnymi praktykami wspierającymi dobrostan. Nie są leczeniem medycznym, diagnozą, psychoterapią, poradnictwem, opieką psychiatryczną ani substytutem profesjonalnej opieki zdrowotnej. Empirica nie diagnozuje, nie leczy i nie uzdrawia chorób ani zaburzeń zdrowia psychicznego. W przypadku problemów zdrowotnych należy zasięgnąć porady wykwalifikowanego specjalisty.",
         s3title: "Odpowiedzialność osobista",
@@ -161,7 +161,7 @@ const translations = {
         s1title: "Nasze podejście",
         s1body: "Dążymy do stosowania jasnego i zrozumiałego języka, przedstawiania informacji w prostej i uporządkowanej formie, uwzględniania dostępności przy tworzeniu treści cyfrowych oraz otwartości na rozmowę o indywidualnych potrzebach w zakresie dostępności.",
         s2title: "Sesje a dostępność",
-        s2body: "Empirica rozumie, że różne osoby mogą mieć różne potrzeby. Jeśli potrzebujesz rozsądnych dostosowań na sesję online lub stacjonarną — na przykład dotyczących dostępności miejsca, preferencji komunikacyjnych czy dodatkowego czasu i ustaleń praktycznych — skontaktuj się z nami przed spotkaniem, abyśmy mogli omówić, jak najlepiej Cię wesprzeć.",
+        s2body: "Empirica rozumie, że różne osoby mogą mieć różne potrzeby. Jeśli potrzebujesz rozsądnych dostosowań na sesję online lub stacjonarną (na przykład dotyczących dostępności miejsca, preferencji komunikacyjnych czy dodatkowego czasu i ustaleń praktycznych), skontaktuj się z nami przed spotkaniem, abyśmy mogli omówić, jak najlepiej Cię wesprzeć.",
         s3title: "Dostępność strony internetowej",
         s3body: "Dążymy do poprawy dostępności strony poprzez czytelny tekst, przejrzystą nawigację, odpowiedni kontrast, opisowe linki i nagłówki oraz kompatybilność z powszechnie używanymi urządzeniami.",
         s4title: "Opinie",
@@ -191,7 +191,7 @@ const translations = {
         s10title: "Odpowiedzialność klienta",
         s10body: "Klienci są zachęcani do dobrowolnego udziału, otwartej komunikacji tam, gdzie czują się z tym komfortowo, poszanowania własnych granic oraz szukania dodatkowego wsparcia specjalistycznego, gdy jest to właściwe.",
         s11title: "Nasze zobowiązanie etyczne",
-        s11body: "Wierzę, że znacząca praca zaczyna się od zaufania. Moim zobowiązaniem jest zaoferowanie przestrzeni, w której ludzie mogą odkrywać swoje doświadczenia w poczuciu bezpieczeństwa, dyskrecji, szacunku i obecności. — Beata, Założycielka i Praktyk"
+        s11body: "Wierzę, że znacząca praca zaczyna się od zaufania. Moim zobowiązaniem jest zaoferowanie przestrzeni, w której ludzie mogą odkrywać swoje doświadczenia w poczuciu bezpieczeństwa, dyskrecji, szacunku i obecności. Beata, Założycielka i Praktyk"
       },
       recording: {
         title: "Polityka nagrywania sesji",
@@ -234,18 +234,18 @@ const translations = {
       },
       testimonial: {
         eyebrow: "Głosy",
-        title: "Z doświadczenia klientów",
+        title: "Opinie klientów",
         t1: {
           quote: "Sesja pomogła mi zobaczyć wzorzec, który powtarzał się w mojej rodzinie od pokoleń. Czuję ulgę i więcej przestrzeni w codziennych decyzjach.",
-          cite: "— Klientka, sesja indywidualna"
+          cite: "Klientka, sesja indywidualna"
         },
         t2: {
           quote: "Dzięki sesji zrozumiałem, dlaczego powtarzałem pewien wzorzec w związkach. To był ważny krok w stronę zmiany.",
-          cite: "— Klient, sesja indywidualna"
+          cite: "Klient, sesja indywidualna"
         },
         t3: {
           quote: "Nie spodziewałam się, że praca online może być tak głęboka. Po sesji poczułam większy spokój i jasność.",
-          cite: "— Klientka, sesja online"
+          cite: "Klientka, sesja online"
         }
       },
       insta: {
@@ -271,7 +271,7 @@ const translations = {
         cat4: "Kroniki Akaszy i przewodnictwo intuicyjne",
         cat5: "Pytania praktyczne",
         c1q1: { q: "Czym jest Empirica?", a: "Empirica to przestrzeń autorefleksji, świadomości i osobistej eksploracji. Poprzez praktyki takie jak ustawienia systemowe, uzdrawianie energią Reiki, Kroniki Akaszy i przewodnictwo intuicyjne, Empirica oferuje możliwość zgłębiania osobistych doświadczeń, relacji, wzorców i wewnętrznej świadomości. Każda sesja prowadzona jest z szacunkiem, poufnością i troską." },
-        c1q2: { q: "Dla kogo jest Empirica?", a: "Empirica jest dla dorosłych, którzy czują potrzebę głębszego zrozumienia siebie, zyskania nowych perspektyw lub stworzenia przestrzeni na refleksję. Nie potrzebujesz wcześniejszego doświadczenia z praktykami duchowymi czy rozwojowymi — wystarczy ciekawość i otwartość." },
+        c1q2: { q: "Dla kogo jest Empirica?", a: "Empirica jest dla dorosłych, którzy czują potrzebę głębszego zrozumienia siebie, zyskania nowych perspektyw lub stworzenia przestrzeni na refleksję. Nie potrzebujesz wcześniejszego doświadczenia z praktykami duchowymi czy rozwojowymi. Wystarczy ciekawość i otwartość." },
         c1q3: { q: "Czy muszę wierzyć w duchowość lub pracę energetyczną?", a: "Nie. Każda osoba jest mile widziana, niezależnie od swoich przekonań. Empirica szanuje indywidualne perspektywy i zachęca klientów do podejścia do sesji z otwartością i osobistą ciekawością." },
         c2q1: { q: "Czym są ustawienia systemowe?", a: "Ustawienia systemowe to podejście doświadczalne, które pozwala odkrywać relacje, powiązania i możliwe wzorce w obrębie osobistych systemów, takich jak rodzina, relacje czy praca. Praktyka ta może dawać nowe perspektywy i refleksje na temat doświadczeń, które mogą wydawać się trudne do zrozumienia." },
         c2q2: { q: "Jak wygląda sesja ustawień systemowych?", a: "Sesja zazwyczaj zaczyna się od zbadania Twojej intencji i tematu, który chcesz przynieść. W zależności od formatu, praca może obejmować prowadzoną refleksję, badanie relacji i wzorców, pracę z reprezentantami lub elementami symbolicznymi oraz obserwację nowych perspektyw. Każda sesja jest inna." },
@@ -289,9 +289,9 @@ const translations = {
         c5q5: { q: "Czy mogę nagrywać swoją sesję?", a: "Nie. Nagrywanie nie jest dozwolone. Dotyczy to nagrań audio, nagrań wideo, nagrań ekranu, zdjęć i zrzutów ekranu. Wszelkie wyjątki wymagają uprzedniej pisemnej zgody Empirica i wszystkich zaangażowanych uczestników." },
         c5q6: { q: "Czy Empirica to terapia?", a: "Nie. Empirica oferuje komplementarne praktyki wspierające dobrostan i osobistą eksplorację. Sesje nie zastępują psychoterapii, poradnictwa, opieki medycznej ani profesjonalnego wsparcia zdrowotnego." },
         c5q7: { q: "Co jeśli podczas sesji pojawią się silne emocje?", a: "Osobista eksploracja może czasem wydobywać na powierzchnię emocje lub refleksje. Zawsze zachęcamy do komunikowania swoich potrzeb i granic. Jeśli potrzebne jest dodatkowe wsparcie specjalistyczne, zalecane jest zwrócenie się o pomoc do odpowiednio wykwalifikowanego specjalisty." },
-        c5q8: { q: "Czy mogę zarezerwować więcej niż jedną sesję?", a: "Tak. Niektórzy klienci wybierają pojedyncze sesje, inni wolą kontynuować eksplorację. Nie ma wymogu kontynuacji — decyzja zawsze należy do Ciebie." },
+        c5q8: { q: "Czy mogę zarezerwować więcej niż jedną sesję?", a: "Tak. Niektórzy klienci wybierają pojedyncze sesje, inni wolą kontynuować eksplorację. Nie ma wymogu kontynuacji. Decyzja zawsze należy do Ciebie." },
         c5q9: { q: "Jak zarezerwować sesję?", a: "Możesz skontaktować się z Empirica poprzez formularz zgłoszeniowy na stronie, dostępne opcje rezerwacji, kanały mediów społecznościowych lub numer telefonu. Po potwierdzeniu sesji otrzymasz praktyczne informacje i wszelkie wymagane formularze." },
-        note: "Doświadczenie każdej osoby jest wyjątkowe. Empirica nie obiecuje odpowiedzi ani ustalonych rezultatów — oferuje przestrzeń pełną szacunku, w której można się zatrzymać, zastanowić i zgłębiać. — Beata, założycielka Empirica"
+        note: "Doświadczenie każdej osoby jest wyjątkowe. Empirica nie obiecuje odpowiedzi ani ustalonych rezultatów. Oferuje przestrzeń pełną szacunku, w której można się zatrzymać, zastanowić i zgłębiać. Beata, założycielka Empirica"
       }
     },
     about: {
@@ -302,7 +302,7 @@ const translations = {
       p2: "Oferuję bezpieczną, poufną i wolną od oceniania przestrzeń, w której możesz się zatrzymać, zyskać nowe perspektywy i na nowo połączyć się z własnymi zasobami wewnętrznymi. Zamiast gotowych odpowiedzi, wspieram Cię w odkrywaniu własnych wglądów i tworzeniu znaczącej zmiany w tempie, które jest dla Ciebie odpowiednie.",
       p3: "Każda sesja prowadzona jest z profesjonalizmem, współczuciem i pełnym poszanowaniem Twoich granic i poufności.",
       credentialsTitle: "Wykształcenie i doświadczenie",
-      credential1: "Certyfikowana praktyczka ustawień systemowych — [nazwa szkoły / instytutu]",
+      credential1: "Certyfikowana praktyczka ustawień systemowych: [nazwa szkoły / instytutu]",
       credential2: "[X]+ lat doświadczenia w pracy indywidualnej i grupowej",
       credential3: "Regularna superwizja i dalsze szkolenia",
       pullquote: "Nie musisz wierzyć. Wystarczy doświadczyć."
@@ -310,7 +310,7 @@ const translations = {
     offer: {
       eyebrow: "Oferta",
       title: "Sesja indywidualna online",
-      intro: "Spotkanie jeden na jeden, w pełni online, poświęcone temu, co dzieje się w Twoim systemie — rodzinnym, relacyjnym lub zawodowym.",
+      intro: "Spotkanie jeden na jeden, w pełni online, poświęcone temu, co dzieje się w Twoim systemie: rodzinnym, relacyjnym lub zawodowym.",
       priceLabel: "Cena",
       priceValue: "£70",
       priceUnit: "/ 90 minut",
@@ -335,8 +335,8 @@ const translations = {
     constellations: {
       eyebrow: "Czym są ustawienia",
       title: "Ustawienia systemowe",
-      p1: "Ustawienia systemowe to metoda pracy, która pozwala zobaczyć ukryte wzorce i lojalności działające w rodzinie, relacji lub organizacji — często poza świadomością osób, których dotyczą.",
-      p2: "Metoda opiera się na obserwacji: to, co pojawia się w polu systemowym, mówi więcej niż analiza czy rozmowa. Nie musisz w nic wierzyć — wystarczy przyjrzeć się temu, co się wydarza.",
+      p1: "Ustawienia systemowe to metoda pracy, która pozwala zobaczyć ukryte wzorce i lojalności działające w rodzinie, relacji lub organizacji, często poza świadomością osób, których dotyczą.",
+      p2: "Metoda opiera się na obserwacji: to, co pojawia się w polu systemowym, mówi więcej niż analiza czy rozmowa. Nie musisz w nic wierzyć; wystarczy przyjrzeć się temu, co się wydarza.",
       helpTitle: "W czym mogą pomóc",
       help1: "Powtarzające się wzorce w relacjach i rodzinie",
       help2: "Trudności w podejmowaniu decyzji",
@@ -346,17 +346,17 @@ const translations = {
       help6: "Poczucie braku przynależności lub bycia outsiderem w rodzinie",
       metaphorsTitle: "Symbolika ustawień",
       metaphorsLede: "Kilka obrazów, które towarzyszą tej pracy.",
-      m1: { title: "Korzenie", body: "To, czego nie widzimy, często wpływa na nasze życie najbardziej.", long: "Korzenie reprezentują to, co dzieje się poza naszą świadomością — historie, lojalności i wzorce przekazywane z pokolenia na pokolenie. Nawet gdy o nich nie wiemy, kształtują nasze decyzje i relacje." },
+      m1: { title: "Korzenie", body: "To, czego nie widzimy, często wpływa na nasze życie najbardziej.", long: "Korzenie reprezentują to, co dzieje się poza naszą świadomością: historie, lojalności i wzorce przekazywane z pokolenia na pokolenie. Nawet gdy o nich nie wiemy, kształtują nasze decyzje i relacje." },
       m2: { title: "Las", body: "Miejsce w systemie.", long: "Las pokazuje, że każdy element ma swoje miejsce i przestrzeń do wzrostu. Kiedy znajdujemy właściwe miejsce w swoim systemie, napięcie ustępuje miejsca spokojowi." },
-      m3: { title: "Kamienie", body: "Porządek.", long: "Kamienie ułożone w naturalny sposób symbolizują porządek — nie sztywne zasady, lecz układ, w którym każda rzecz jest tam, gdzie powinna być. Porządek w systemie przynosi ulgę." },
+      m3: { title: "Kamienie", body: "Porządek.", long: "Kamienie ułożone w naturalny sposób symbolizują porządek: nie sztywne zasady, lecz układ, w którym każda rzecz jest tam, gdzie powinna być. Porządek w systemie przynosi ulgę." },
       m4: { title: "Strumień", body: "Przepływ.", long: "Strumień omijający przeszkody pokazuje, jak energia w systemie szuka drogi do przodu. Kiedy pozwalamy jej płynąć, zamiast się jej opierać, zmiana staje się możliwa." },
-      m5: { title: "Liść", body: "Każda historia ma swoje miejsce.", long: "Pojedynczy liść unoszący się na wodzie przypomina, że każda historia — nawet ta trudna czy zapomniana — zasługuje na miejsce i uznanie w opowieści rodziny." },
+      m5: { title: "Liść", body: "Każda historia ma swoje miejsce.", long: "Pojedynczy liść unoszący się na wodzie przypomina, że każda historia, nawet ta trudna czy zapomniana, zasługuje na miejsce i uznanie w opowieści rodziny." },
       cta: "Umów sesję"
     },
     contact: {
       eyebrow: "Kontakt",
       title: "Umów sesję",
-      lede: "Napisz kilka słów o tym, z czym się zgłaszasz. Odpowiem w ciągu 2–3 dni roboczych.",
+      lede: "Skontaktuj się. Napisz kilka słów o tym, z czym się zgłaszasz.",
       formName: "Imię i nazwisko",
       formEmail: "Adres e-mail",
       formMessage: "Co Cię tu przywiodło?",
@@ -387,18 +387,18 @@ const translations = {
   },
   en: {
     meta: {
-      home: "Empirica — Systemic Constellations",
-      about: "About — Empirica",
-      offer: "Offer — Empirica",
-      constellations: "Systemic Constellations — Empirica",
-      contact: "Contact — Empirica",
-      privacy: "Privacy Policy — Empirica",
-      terms: "Terms & Conditions — Empirica",
-      cookies: "Cookie Policy — Empirica",
-      disclaimer: "Disclaimer — Empirica",
-      accessibility: "Accessibility Statement — Empirica",
-      conduct: "Professional Boundaries & Code of Conduct — Empirica",
-      recording: "Recording Policy — Empirica"
+      home: "Empirica | Systemic Constellations",
+      about: "About | Empirica",
+      offer: "Offer | Empirica",
+      constellations: "Systemic Constellations | Empirica",
+      contact: "Contact | Empirica",
+      privacy: "Privacy Policy | Empirica",
+      terms: "Terms & Conditions | Empirica",
+      cookies: "Cookie Policy | Empirica",
+      disclaimer: "Disclaimer | Empirica",
+      accessibility: "Accessibility Statement | Empirica",
+      conduct: "Professional Boundaries & Code of Conduct | Empirica",
+      recording: "Recording Policy | Empirica"
     },
     nav: {
       home: "Home",
@@ -446,7 +446,7 @@ const translations = {
         s15title: "Changes To This Privacy Policy",
         s15body: "This Privacy Policy may be updated from time to time. The most recent version will be published through appropriate channels.",
         s16title: "Contact",
-        s16body: "If you have questions about this Privacy Policy or how your information is handled, please contact empiricaconstellations@gmail.com. Your privacy matters — Empirica is committed to creating a space built on trust, respect and discretion."
+        s16body: "If you have questions about this Privacy Policy or how your information is handled, please contact empiricaconstellations@gmail.com. Your privacy matters. Empirica is committed to creating a space built on trust, respect and discretion."
       },
       terms: {
         title: "Terms & Conditions",
@@ -486,7 +486,7 @@ const translations = {
         s17title: "Governing Law",
         s17body: "These Terms & Conditions are governed by the laws of England and Wales. Any disputes will be subject to the jurisdiction of the courts of England and Wales.",
         s18title: "Contact",
-        s18body: "For questions regarding these Terms & Conditions, please contact empiricaconstellations@gmail.com. Thank you for choosing Empirica — a space for awareness, connection and meaningful exploration."
+        s18body: "For questions regarding these Terms & Conditions, please contact empiricaconstellations@gmail.com. Thank you for choosing Empirica: a space for awareness, connection and meaningful exploration."
       },
       cookies: {
         title: "Cookie Policy",
@@ -518,7 +518,7 @@ const translations = {
         title: "Disclaimer",
         intro: "Empirica provides complementary wellbeing practices designed to support self-reflection, personal awareness and individual exploration. Services offered by Empirica may include Systemic Constellations, Reiki Energy Healing, Akashic Records Reading, Intuitive Guidance, and wellbeing workshops and reflective practices.",
         s1title: "Nature of Services",
-        s1body: "Sessions offered by Empirica are intended to provide a supportive space for reflection, awareness, relaxation, personal exploration, and exploring perspectives and patterns. Sessions are based on individual experience and personal interpretation — each person's experience may be different.",
+        s1body: "Sessions offered by Empirica are intended to provide a supportive space for reflection, awareness, relaxation, personal exploration, and exploring perspectives and patterns. Sessions are based on individual experience and personal interpretation. Each person's experience may be different.",
         s2title: "Not Medical or Psychological Treatment",
         s2body: "Empirica services are complementary wellbeing practices. They are not medical treatment, diagnosis, psychotherapy, counselling, psychiatric care, or a substitute for professional healthcare. Empirica does not diagnose, treat or cure medical conditions, mental health conditions or illnesses. If you have health concerns, please seek advice from a qualified healthcare professional.",
         s3title: "Personal Responsibility",
@@ -547,7 +547,7 @@ const translations = {
         s1title: "Our Approach",
         s1body: "We strive to use clear and understandable language, provide information in a simple and organised format, consider accessibility when creating digital content, and welcome communication about individual accessibility needs.",
         s2title: "Sessions & Accessibility",
-        s2body: "Empirica understands that people may have different needs. If you require any reasonable adjustments for an online or in-person session — such as accessibility requirements at a venue, communication preferences, or additional time and practical arrangements — please contact us before your appointment so we can discuss how we may best support you.",
+        s2body: "Empirica understands that people may have different needs. If you require any reasonable adjustments for an online or in-person session (such as accessibility requirements at a venue, communication preferences, or additional time and practical arrangements), please contact us before your appointment so we can discuss how we may best support you.",
         s3title: "Website Accessibility",
         s3body: "We aim to improve website accessibility by considering readable text, clear navigation, appropriate contrast, descriptive links and headings, and compatibility with commonly used devices.",
         s4title: "Feedback",
@@ -577,7 +577,7 @@ const translations = {
         s10title: "Client Responsibility",
         s10body: "Clients are encouraged to participate willingly, communicate openly where comfortable, respect their own boundaries, and seek additional professional support where appropriate.",
         s11title: "Our Ethical Commitment",
-        s11body: "I believe meaningful work begins with trust. My commitment is to offer a space where people can explore their experiences with safety, discretion, respect and presence. — Beata, Founder & Practitioner"
+        s11body: "I believe meaningful work begins with trust. My commitment is to offer a space where people can explore their experiences with safety, discretion, respect and presence. Beata, Founder & Practitioner"
       },
       recording: {
         title: "Recording Policy",
@@ -620,18 +620,18 @@ const translations = {
       },
       testimonial: {
         eyebrow: "Voices",
-        title: "From client experience",
+        title: "Client feedback",
         t1: {
           quote: "The session helped me see a pattern that had repeated in my family for generations. I feel relief, and more space in my everyday decisions.",
-          cite: "— Client, individual session"
+          cite: "Client, individual session"
         },
         t2: {
           quote: "The session helped me understand why I kept repeating a certain pattern in relationships. It was an important step toward change.",
-          cite: "— Client, individual session"
+          cite: "Client, individual session"
         },
         t3: {
           quote: "I didn't expect online work to be this profound. After the session I felt calmer and clearer.",
-          cite: "— Client, online session"
+          cite: "Client, online session"
         }
       },
       insta: {
@@ -639,7 +639,7 @@ const translations = {
         title: "@EmpiricaConstellations",
         lede: "Calm, space and reflections from the systemic field.",
         quote1: "Each of us has a place in the system. When we find it, everything begins to flow.",
-        quote2: "A system isn't a bond that traps — it's a connection.",
+        quote2: "A system isn't a bond that traps; it's a connection.",
         cta: "Follow on Instagram"
       },
       ctaBanner: {
@@ -675,9 +675,9 @@ const translations = {
         c5q5: { q: "Can I record my session?", a: "No. Recording is not permitted. This includes audio recordings, video recordings, screen recordings, photographs and screenshots. Any exception requires prior written agreement from Empirica and all relevant participants." },
         c5q6: { q: "Is Empirica therapy?", a: "No. Empirica offers complementary wellbeing practices and personal exploration. Sessions do not replace psychotherapy, counselling, medical care, or professional healthcare support." },
         c5q7: { q: "What if I experience strong emotions during a session?", a: "Personal exploration can sometimes bring emotions or reflections to the surface. You are always encouraged to communicate your needs and boundaries. If additional professional support is needed, seeking help from an appropriately qualified professional is recommended." },
-        c5q8: { q: "Can I book more than one session?", a: "Yes. Some clients choose individual sessions, while others prefer ongoing exploration. There is no requirement to continue — your choices remain your own." },
+        c5q8: { q: "Can I book more than one session?", a: "Yes. Some clients choose individual sessions, while others prefer ongoing exploration. There is no requirement to continue; your choices remain your own." },
         c5q9: { q: "How do I book a session?", a: "You can contact Empirica through the website enquiry form, available booking options, social media channels, or by telephone. Once your session is confirmed, you will receive practical details and any required forms." },
-        note: "Every person's experience is unique. Empirica does not promise answers or fixed outcomes. Instead, it offers a respectful space to pause, reflect and explore. — Beata, Founder of Empirica"
+        note: "Every person's experience is unique. Empirica does not promise answers or fixed outcomes. Instead, it offers a respectful space to pause, reflect and explore. Beata, Founder of Empirica"
       }
     },
     about: {
@@ -688,7 +688,7 @@ const translations = {
       p2: "I offer a safe, confidential, and non-judgmental space where you can pause, gain new perspectives, and reconnect with your inner resources. Rather than offering ready-made answers, I support you in discovering your own insights and creating meaningful change at a pace that feels right for you.",
       p3: "Every session is held with professionalism, compassion, and complete respect for your boundaries and confidentiality.",
       credentialsTitle: "Training and Experience",
-      credential1: "Certified Systemic Constellations Practitioner — [training institute]",
+      credential1: "Certified Systemic Constellations Practitioner: [training institute]",
       credential2: "[X]+ years of experience in individual and group work",
       credential3: "Ongoing supervision and further training",
       pullquote: "You don't need to believe. You only need to experience."
@@ -696,7 +696,7 @@ const translations = {
     offer: {
       eyebrow: "Offer",
       title: "Individual Online Session",
-      intro: "A one-to-one meeting, fully online, dedicated to what is happening within your system — family, relational or professional.",
+      intro: "A one-to-one meeting, fully online, dedicated to what is happening within your system: family, relational or professional.",
       priceLabel: "Price",
       priceValue: "£70",
       priceUnit: "/ 90 minutes",
@@ -721,8 +721,8 @@ const translations = {
     constellations: {
       eyebrow: "What Are Constellations",
       title: "Systemic Constellations",
-      p1: "Systemic constellations are a method of working that reveals the hidden patterns and loyalties operating within a family, relationship or organisation — often outside the awareness of those involved.",
-      p2: "The method is based on observation: what emerges in the systemic field often says more than analysis or conversation. You don't need to believe anything — you only need to look at what happens.",
+      p1: "Systemic constellations are a method of working that reveals the hidden patterns and loyalties operating within a family, relationship or organisation, often outside the awareness of those involved.",
+      p2: "The method is based on observation: what emerges in the systemic field often says more than analysis or conversation. You don't need to believe anything; you only need to look at what happens.",
       helpTitle: "What It Can Help With",
       help1: "Repeating patterns in relationships and family",
       help2: "Difficulty making decisions",
@@ -732,17 +732,17 @@ const translations = {
       help6: "A sense of not belonging, or feeling like an outsider in the family",
       metaphorsTitle: "The Symbolism of Constellations",
       metaphorsLede: "A few images that accompany this work.",
-      m1: { title: "Roots", body: "What we don't see often affects our life the most.", long: "Roots represent what happens beyond our awareness — the stories, loyalties and patterns passed down through generations. Even when we're unaware of them, they shape our decisions and relationships." },
+      m1: { title: "Roots", body: "What we don't see often affects our life the most.", long: "Roots represent what happens beyond our awareness: the stories, loyalties and patterns passed down through generations. Even when we're unaware of them, they shape our decisions and relationships." },
       m2: { title: "Forest", body: "A place in the system.", long: "The forest shows that every element has its place and room to grow. When we find our right place within our system, tension gives way to calm." },
-      m3: { title: "Stones", body: "Order.", long: "Stones arranged naturally symbolise order — not rigid rules, but an arrangement where everything is where it belongs. Order within a system brings relief." },
+      m3: { title: "Stones", body: "Order.", long: "Stones arranged naturally symbolise order: not rigid rules, but an arrangement where everything is where it belongs. Order within a system brings relief." },
       m4: { title: "Stream", body: "Flow.", long: "A stream moving around obstacles shows how energy in a system finds its way forward. When we let it flow instead of resisting it, change becomes possible." },
-      m5: { title: "Leaf", body: "Every story has its place.", long: "A single leaf floating on water is a reminder that every story — even a difficult or forgotten one — deserves a place and acknowledgment within the family's narrative." },
+      m5: { title: "Leaf", body: "Every story has its place.", long: "A single leaf floating on water is a reminder that every story, even a difficult or forgotten one, deserves a place and acknowledgment within the family's narrative." },
       cta: "Book a Session"
     },
     contact: {
       eyebrow: "Contact",
       title: "Book a Session",
-      lede: "Write a few words about what brings you here. I'll reply within 2–3 business days.",
+      lede: "Get in touch. Write a few words about what brings you here.",
       formName: "Full name",
       formEmail: "Email address",
       formMessage: "What brings you here?",
