@@ -203,7 +203,7 @@ const translations = {
     },
     home: {
       hero: {
-        subtitle: "Systemic Constellations • Ustawienia Systemowe",
+        subtitle: "Ustawienia Systemowe",
         lede: "Przestrzeń do uważnej refleksji i głębszego zrozumienia siebie.",
         cta: "Umów sesję"
       },
