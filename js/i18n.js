@@ -258,7 +258,7 @@ const translations = {
         cta: "Obserwuj na Instagramie"
       },
       ctaBanner: {
-        title: "Gotowa na zmianę?",
+        title: "Gotów na zmianę?",
         body: "Umów sesję i zrób pierwszy krok w stronę zrozumienia swojego systemu.",
         cta: "Umów sesję"
       },
@@ -368,7 +368,7 @@ const translations = {
       c5q7: { q: "Co jeśli podczas sesji pojawią się silne emocje?", a: "Osobista eksploracja może czasem wydobywać na powierzchnię emocje lub refleksje. Zawsze zachęcamy do komunikowania swoich potrzeb i granic. Jeśli potrzebne jest dodatkowe wsparcie specjalistyczne, zalecane jest zwrócenie się o pomoc do odpowiednio wykwalifikowanego specjalisty." },
       c5q8: { q: "Czy mogę zarezerwować więcej niż jedną sesję?", a: "Tak. Niektórzy klienci wybierają pojedyncze sesje, inni wolą kontynuować eksplorację. Nie ma wymogu kontynuacji. Decyzja zawsze należy do Ciebie." },
       c5q9: { q: "Jak zarezerwować sesję?", a: "Możesz skontaktować się z Empirica poprzez formularz zgłoszeniowy na stronie, dostępne opcje rezerwacji, kanały mediów społecznościowych lub numer telefonu. Po potwierdzeniu sesji otrzymasz praktyczne informacje i wszelkie wymagane formularze." },
-      note: "Doświadczenie każdej osoby jest wyjątkowe. Empirica nie obiecuje odpowiedzi ani ustalonych rezultatów. Oferuje przestrzeń pełną szacunku, w której można się zatrzymać, zastanowić i zgłębiać. Beata, założycielka Empirica"
+      note: "Doświadczenie każdej osoby jest wyjątkowe. Empirica nie obiecuje odpowiedzi ani ustalonych rezultatów. Oferuje przestrzeń pełną szacunku, w której można się zatrzymać, zastanowić i zgłębiać."
     },
     footer: {
       tagline: "Zrozumieć. Uzdrowić. Uwolnić.",
@@ -755,7 +755,7 @@ const translations = {
       c5q7: { q: "What if I experience strong emotions during a session?", a: "Personal exploration can sometimes bring emotions or reflections to the surface. You are always encouraged to communicate your needs and boundaries. If additional professional support is needed, seeking help from an appropriately qualified professional is recommended." },
       c5q8: { q: "Can I book more than one session?", a: "Yes. Some clients choose individual sessions, while others prefer ongoing exploration. There is no requirement to continue; your choices remain your own." },
       c5q9: { q: "How do I book a session?", a: "You can contact Empirica through the website enquiry form, available booking options, social media channels, or by telephone. Once your session is confirmed, you will receive practical details and any required forms." },
-      note: "Every person's experience is unique. Empirica does not promise answers or fixed outcomes. Instead, it offers a respectful space to pause, reflect and explore. Beata, Founder of Empirica"
+      note: "Every person's experience is unique. Empirica does not promise answers or fixed outcomes. Instead, it offers a respectful space to pause, reflect and explore."
     },
     footer: {
       tagline: "Understand. Heal. Release.",
