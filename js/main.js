@@ -147,15 +147,16 @@ document.addEventListener('DOMContentLoaded', () => {
           body: new FormData(form),
           headers: { Accept: 'application/json' }
         });
+        const data = await response.json();
 
-        if (response.ok) {
+        if (response.ok && data.success) {
           form.reset();
           status.textContent = lang === 'en'
             ? "Thank you for your message. I'll reply as soon as possible."
             : 'Dziękuję za wiadomość. Odpowiem najszybciej, jak to możliwe.';
           status.className = 'form-status success';
         } else {
-          throw new Error('Form submission failed');
+          throw new Error(data.message || 'Form submission failed');
         }
       } catch (err) {
         status.textContent = lang === 'en'

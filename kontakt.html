@@ -58,10 +58,14 @@
   <section>
     <div class="container contact-grid">
       <!--
-        Before publishing: sign up at https://formspree.io (free plan),
-        create a form, and replace YOUR_FORM_ID below with the real endpoint.
+        Before publishing: sign up at https://web3forms.com with the
+        destination Gmail address, then replace YOUR_ACCESS_KEY below
+        with the real access key from the dashboard.
       -->
-      <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY">
+        <input type="hidden" name="subject" value="New enquiry from the Empirica website">
+        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
         <div class="form-row">
           <label for="name"><span data-i18n="contact.formName">Imię i nazwisko</span> *</label>
           <input type="text" id="name" name="name" required>
@@ -95,7 +99,7 @@
           <span data-i18n="contact.sideLocationValue">Zdalnie • Lincoln, Wielka Brytania</span>
         </div>
         <div class="item" style="margin-bottom:0;">
-          <img src="assets/logo.png" alt="Empirica" height="32">
+          <img src="assets/logo.png" alt="Empirica" height="64">
         </div>
       </aside>
     </div>
