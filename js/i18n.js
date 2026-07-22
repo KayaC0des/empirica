@@ -212,13 +212,13 @@ const translations = {
       intro: {
         eyebrow: "Filozofia",
         title: "Nie musisz wierzyć. Wystarczy doświadczyć.",
-        body: "Oferuję sesje ustawień systemowych dla osób, które chcą przyjrzeć się swoim relacjom, doświadczeniom życiowym i powracającym wzorcom z szerszej perspektywy. W atmosferze zaufania, dyskrecji i szacunku zapewniam spokojną i wspierającą przestrzeń, która sprzyja wglądowi, osobistemu rozwojowi i znaczącej zmianie. Każda sesja prowadzona jest z troską, współczuciem i głębokim szacunkiem dla Twojej wyjątkowej historii i indywidualnej drogi."
+        body: "Oferuję sesje dla osób, które chcą przyjrzeć się swoim relacjom, doświadczeniom życiowym i powracającym wzorcom z szerszej perspektywy. W atmosferze zaufania, dyskrecji i szacunku zapewniam spokojną i wspierającą przestrzeń, która sprzyja wglądowi, osobistemu rozwojowi i znaczącej zmianie. Każda sesja prowadzona jest z troską, współczuciem i głębokim szacunkiem dla Twojej wyjątkowej historii i indywidualnej drogi."
       },
       values: {
         eyebrow: "Trzy kroki",
-        title: "Zrozumieć. Uzdrowić. Uwolnić.",
-        card1: { title: "Zrozumieć", body: "Zobacz wzorce, które nieświadomie powtarzasz, i skąd naprawdę się wzięły." },
-        card2: { title: "Uzdrowić", body: "Daj przestrzeń temu, co niedokończone, by mogło się ułożyć na swoim miejscu." },
+        title: "Zapytać. Zrozumieć. Uwolnić.",
+        card1: { title: "Zapytać", body: "Zacznij od pytań, które mają znaczenie: takich, które ujawniają to, co naprawdę dzieje się pod powierzchnią." },
+        card2: { title: "Zrozumieć", body: "Zobacz wzorce, które nieświadomie powtarzasz, i skąd naprawdę się wzięły." },
         card3: { title: "Uwolnić", body: "Odzyskaj wolność decyzji i energię, która była uwięziona w systemie." }
       },
       reflections: {
@@ -266,20 +266,25 @@ const translations = {
     about: {
       eyebrow: "O mnie",
       name: "Beata",
-      role: "Praktyk ustawień systemowych",
-      p1: "Wierzę, że historia każdej osoby zasługuje na wysłuchanie, a trwała zmiana zaczyna się od zrozumienia. Moje podejście opiera się na obecności, empatii i szacunku dla unikalnej drogi każdej osoby.",
-      p2: "Oferuję bezpieczną, poufną i wolną od oceniania przestrzeń, w której możesz się zatrzymać, zyskać nowe perspektywy i na nowo połączyć się z własnymi zasobami wewnętrznymi. Zamiast gotowych odpowiedzi, wspieram Cię w odkrywaniu własnych wglądów i tworzeniu znaczącej zmiany w tempie, które jest dla Ciebie odpowiednie.",
-      p3: "Każda sesja prowadzona jest z profesjonalizmem, współczuciem i pełnym poszanowaniem Twoich granic i poufności.",
+      role: "Założycielka Empirica",
+      p1: "Często przychodzi taki moment, w którym zaczynamy się zastanawiać. Dlaczego te same wzorce wciąż się powtarzają? Dlaczego niektóre relacje wydają się tak trudne? Dlaczego reaguję w sposób, którego do końca nie rozumiem? Dlaczego mam wrażenie, że życie próbuje mi pokazać coś, czego jeszcze nie potrafię dostrzec? Jeśli kiedykolwiek zadawałaś sobie te pytania, nie jesteś sama.",
+      p2: "Nazywam się Beata i to właśnie te pytania zainspirowały moją własną podróż ciekawości, nauki i odkrywania siebie. Wierzę, że jest w nas więcej, niż widać na pierwszy rzut oka: nasze życie kształtują nie tylko świadome wybory, ale także doświadczenia, relacje, systemy rodzinne i historie, które nosimy w sobie, często nawet o tym nie wiedząc. To przekonanie stało się fundamentem Empirica.",
+      p3: "Stworzyłam Empirica jako spokojną, pełną szacunku przestrzeń, w której można się zatrzymać, na nowo połączyć się ze sobą i zgłębiać życiowe pytania z ciekawością, a nie osądem. Moja praca skupia się głównie na ustawieniach systemowych: podejściu, które oferuje wyjątkowy sposób zgłębiania relacji, powracających wzorców i głębszej dynamiki, mogącej wpływać na nasze życie.",
+      p4: "Oprócz tej pracy oferuję również Reiki, odczyty Kronik Akaszy oraz przewodnictwo intuicyjne. Każda z tych praktyk otwiera inne drzwi do refleksji, świadomości i osobistej eksploracji, dzięki czemu każda sesja może być dostosowana do Twoich indywidualnych potrzeb i intencji.",
+      p5: "Nie wierzę, że jedna osoba posiada wszystkie odpowiedzi dla drugiej. Wierzę natomiast, że znacząca zmiana często zaczyna się wtedy, gdy dajemy sobie przestrzeń, by zwolnić, głęboko słuchać i na nowo połączyć się z własną wewnętrzną mądrością.",
+      p6: "Niezależnie od tego, czy przychodzisz do Empirica w poszukiwaniu jasności, zrozumienia, czy po prostu spokojnego miejsca do refleksji, spotkasz się ze współczuciem, dyskrecją i szacunkiem. Moją rolą nie jest mówienie Ci, kim jesteś. Moją rolą jest stworzenie przestrzeni, w której poczujesz się na tyle bezpiecznie, by odkryć to samodzielnie.",
+      p7: "Z niecierpliwością czekam, aby Cię powitać.",
       credentialsTitle: "Wykształcenie i doświadczenie",
       credential1: "Certyfikowana praktyczka ustawień systemowych: [nazwa szkoły / instytutu]",
       credential2: "[X]+ lat doświadczenia w pracy indywidualnej i grupowej",
       credential3: "Regularna superwizja i dalsze szkolenia",
-      pullquote: "Nie musisz wierzyć. Wystarczy doświadczyć."
+      pullquote: "Empirica nigdy nie powstała po to, by dawać ludziom odpowiedzi. Powstała po to, by zaoferować przestrzeń, w której wreszcie można zadać właściwe pytania."
     },
     offer: {
       eyebrow: "Oferta",
-      title: "Sesja indywidualna online",
-      intro: "Spotkanie jeden na jeden, w pełni online, poświęcone temu, co dzieje się w Twoim systemie: rodzinnym, relacyjnym lub zawodowym.",
+      title: "Sesje indywidualne online",
+      intro: "Poznaj sposoby pracy dostępne w Empirica i wybierz ten, który najbardziej odpowiada Twoim potrzebom.",
+      constellationsTitle: "Ustawienia systemowe",
       priceLabel: "Cena",
       priceValue: "£70",
       priceUnit: "/ 90 minut",
@@ -290,8 +295,8 @@ const translations = {
       include4: "Nagranie audio sesji na życzenie",
       stepsTitle: "Jak wygląda współpraca",
       step1: { title: "Zapytanie", body: "Wypełniasz krótki formularz, opisując to, z czym się zgłaszasz." },
-      step2: { title: "Rozmowa wstępna", body: "Krótko ustalamy temat i sprawdzamy, czy ustawienie systemowe jest odpowiednią metodą." },
-      step3: { title: "Sesja online", body: "Spotykamy się na videorozmowie i pracujemy z tym, co pojawia się w polu systemowym." },
+      step2: { title: "Rozmowa wstępna", body: "Krótko ustalamy temat i sprawdzamy, czy wybrana metoda jest odpowiednia." },
+      step3: { title: "Sesja online", body: "Spotykamy się na videorozmowie i pracujemy z tym, co się pojawia." },
       step4: { title: "Integracja", body: "Zostajesz z przestrzenią, by to, co się wydarzyło, mogło ułożyć się w swoim czasie." },
       linksTitle: "Więcej informacji",
       linkFaq: "FAQ",
@@ -299,7 +304,29 @@ const translations = {
       linkConduct: "Zasady postępowania",
       linkRecording: "Polityka nagrywania",
       cta: "Umów sesję",
-      disclaimer: "* Ustawienia systemowe nie zastępują terapii psychologicznej ani leczenia medycznego. Jeśli zmagasz się z kryzysem psychicznym, skontaktuj się ze specjalistą lub odpowiednimi służbami."
+      disclaimer: "* Ustawienia systemowe nie zastępują terapii psychologicznej ani leczenia medycznego. Jeśli zmagasz się z kryzysem psychicznym, skontaktuj się ze specjalistą lub odpowiednimi służbami.",
+      reiki: {
+        title: "Reiki",
+        p1: "Reiki to delikatna, komplementarna praktyka wspierająca dobrostan, zapraszająca do głębokiego relaksu, wyciszenia i ponownego połączenia ze sobą.",
+        p2: "Każda sesja Reiki oferuje spokojną przestrzeń, by zwolnić, uwolnić się od codziennych obowiązków i po prostu być obecnym. Wiele osób opisuje to doświadczenie jako uspokajające, ugruntowujące i regenerujące, choć każda sesja jest inna.",
+        p3: "Reiki nie ma na celu \"naprawiania\" czy zmieniania Cię, lecz tworzy przestrzeń na odpoczynek, równowagę i osobistą refleksję.",
+        p4: "Niezależnie od tego, czy przechodzisz przez zmianę, czujesz się emocjonalnie przytłoczona/y, czy po prostu tęsknisz za chwilą spokoju, Reiki oferuje okazję, by na nowo połączyć się ze sobą w bezpiecznym i wspierającym środowisku."
+      },
+      akashic: {
+        title: "Odczyty Kronik Akaszy",
+        p1: "Sesja Kronik Akaszy to zaproszenie do zgłębienia swojego życia z głębszej, bardziej refleksyjnej perspektywy.",
+        p2: "Wspólnie tworzymy spokojną przestrzeń, by zgłębić pytania, tematy lub doświadczenia, które są dla Ciebie najważniejsze. Pojawiające się wglądy oferowane są jako okazja do refleksji, większej świadomości i osobistego zrozumienia.",
+        p3: "Każda sesja jest wyjątkowa i rozwija się w odpowiedzi na Twoją indywidualną intencję.",
+        p4: "Zamiast dostarczać gotowych odpowiedzi czy przewidywań, odczyty Kronik Akaszy mają na celu wspieranie jasności, samoświadomości i głębszego połączenia z własną wewnętrzną mądrością."
+      },
+      intuitive: {
+        title: "Przewodnictwo intuicyjne",
+        p1: "Przewodnictwo intuicyjne to spersonalizowana sesja łącząca intuicyjny wgląd z narzędziami refleksyjnymi, wspierająca jasność, samoświadomość i osobistą eksplorację.",
+        p2: "W zależności od Twojej intencji, sesja może obejmować połączenie kart Oracle, kart Tarota, pracy z wahadełkiem, intuicyjnych wrażeń i przekazów, zawsze prowadzone w sposób, który wydaje się najbardziej wspierający w danej chwili.",
+        p3: "Te sesje nie polegają na przewidywaniu przyszłości ani podejmowaniu decyzji za Ciebie. Oferują natomiast okazję, by się zatrzymać, zgłębić różne perspektywy i na nowo połączyć się z własną intuicją.",
+        p4: "Każda sesja prowadzona jest z ciekawością, współczuciem i szacunkiem, z uznaniem, że pozostajesz autorem/autorką własnego życia i wyborów.",
+        p5: "Oferowane przewodnictwo ma na celu wspieranie refleksji i osobistego rozwoju, przy jednoczesnym poszanowaniu Twojej wolnej woli i indywidualnej drogi."
+      }
     },
     constellations: {
       eyebrow: "Czym są ustawienia",
@@ -313,8 +340,8 @@ const translations = {
       help4: "Żałoba, strata i niedokończone sprawy rodzinne",
       help5: "Dynamiki w zespole lub organizacji",
       help6: "Poczucie braku przynależności lub bycia outsiderem w rodzinie",
-      metaphorsTitle: "Symbolika ustawień",
-      metaphorsLede: "Kilka obrazów, które towarzyszą tej pracy.",
+      metaphorsTitle: "Symbolika",
+      metaphorsLede: "Kilka obrazów, które towarzyszą mojej pracy.",
       m1: { title: "Korzenie", body: "To, czego nie widzimy, często wpływa na nasze życie najbardziej.", long: "Korzenie reprezentują to, co dzieje się poza naszą świadomością: historie, lojalności i wzorce przekazywane z pokolenia na pokolenie. Nawet gdy o nich nie wiemy, kształtują nasze decyzje i relacje." },
       m2: { title: "Las", body: "Miejsce w systemie.", long: "Las pokazuje, że każdy element ma swoje miejsce i przestrzeń do wzrostu. Kiedy znajdujemy właściwe miejsce w swoim systemie, napięcie ustępuje miejsca spokojowi." },
       m3: { title: "Kamienie", body: "Porządek.", long: "Kamienie ułożone w naturalny sposób symbolizują porządek: nie sztywne zasady, lecz układ, w którym każda rzecz jest tam, gdzie powinna być. Porządek w systemie przynosi ulgę." },
@@ -371,7 +398,7 @@ const translations = {
       note: "Doświadczenie każdej osoby jest wyjątkowe. Empirica nie obiecuje odpowiedzi ani ustalonych rezultatów. Oferuje przestrzeń pełną szacunku, w której można się zatrzymać, zastanowić i zgłębiać."
     },
     footer: {
-      tagline: "Zrozumieć. Uzdrowić. Uwolnić.",
+      tagline: "Zapytać. Zrozumieć. Uwolnić.",
       navTitle: "Nawigacja",
       contactTitle: "Kontakt",
       followTitle: "Obserwuj",
@@ -599,13 +626,13 @@ const translations = {
       intro: {
         eyebrow: "Philosophy",
         title: "You don't need to believe. You only need to experience.",
-        body: "I offer Systemic Constellation sessions for individuals who wish to explore their relationships, life experiences, and recurring patterns from a broader perspective. In an atmosphere of trust, discretion, and respect, I provide a calm and supportive environment that encourages insight, personal growth, and meaningful change. Every session is guided with care, compassion, and a deep respect for your unique story and individual journey."
+        body: "I offer sessions for individuals who wish to explore their relationships, life experiences, and recurring patterns from a broader perspective. In an atmosphere of trust, discretion, and respect, I provide a calm and supportive environment that encourages insight, personal growth, and meaningful change. Every session is guided with care, compassion, and a deep respect for your unique story and individual journey."
       },
       values: {
         eyebrow: "Three steps",
-        title: "Understand. Heal. Release.",
-        card1: { title: "Understand", body: "See the patterns you unconsciously repeat, and where they truly come from." },
-        card2: { title: "Heal", body: "Give space to what is unfinished, so it can settle into its place." },
+        title: "Ask. Understand. Release.",
+        card1: { title: "Ask", body: "Begin with the questions that matter: the ones that reveal what's really happening beneath the surface." },
+        card2: { title: "Understand", body: "See the patterns you unconsciously repeat, and where they truly come from." },
         card3: { title: "Release", body: "Reclaim the freedom to choose, and the energy that was held within the system." }
       },
       reflections: {
@@ -653,20 +680,25 @@ const translations = {
     about: {
       eyebrow: "About Me",
       name: "Beata",
-      role: "Systemic Constellations Practitioner",
-      p1: "I believe that every person's story deserves to be heard, and that lasting change begins with understanding. My approach is grounded in presence, empathy, and respect for each individual's unique path.",
-      p2: "I offer a safe, confidential, and non-judgmental space where you can pause, gain new perspectives, and reconnect with your inner resources. Rather than offering ready-made answers, I support you in discovering your own insights and creating meaningful change at a pace that feels right for you.",
-      p3: "Every session is held with professionalism, compassion, and complete respect for your boundaries and confidentiality.",
+      role: "Founder of Empirica",
+      p1: "There is often a moment when we begin to wonder. Why do the same patterns keep repeating? Why do certain relationships feel so difficult? Why do I react in ways I don't fully understand? Why does it feel as though life is trying to show me something I cannot yet see? If you have ever found yourself asking these questions, you are not alone.",
+      p2: "My name is Beata, and these are the very questions that first inspired my own journey of curiosity, learning and self-discovery. I believe there is more to us than what we can immediately see: our lives are shaped not only by the choices we consciously make, but also by our experiences, relationships, family systems and the stories we carry, often without even realising it. That belief became the foundation of Empirica.",
+      p3: "I created Empirica as a calm, respectful space where people can pause, reconnect with themselves and explore life's questions with curiosity rather than judgement. My work is centred around Systemic Constellations, an approach that offers a unique way of exploring relationships, recurring patterns and the deeper dynamics that may influence our lives.",
+      p4: "Alongside this work, I also offer Reiki Energy Healing, Akashic Records Readings and Intuitive Guidance. Each of these practices provides a different doorway into reflection, awareness and personal exploration, allowing every session to be shaped by your individual needs and intentions.",
+      p5: "I do not believe that one person holds all the answers for another. Instead, I believe that meaningful change often begins when we are given the space to slow down, listen deeply and reconnect with our own inner wisdom.",
+      p6: "Whether you come to Empirica seeking clarity, understanding or simply a quiet place to reflect, you will be met with compassion, discretion and respect. My role is not to tell you who you are. It is to hold a space where you feel safe enough to discover that for yourself.",
+      p7: "I look forward to welcoming you.",
       credentialsTitle: "Training and Experience",
       credential1: "Certified Systemic Constellations Practitioner: [training institute]",
       credential2: "[X]+ years of experience in individual and group work",
       credential3: "Ongoing supervision and further training",
-      pullquote: "You don't need to believe. You only need to experience."
+      pullquote: "Empirica was never created to give people answers. It was created to offer a space where the right questions could finally be asked."
     },
     offer: {
       eyebrow: "Offer",
-      title: "Individual Online Session",
-      intro: "A one-to-one meeting, fully online, dedicated to what is happening within your system: family, relational or professional.",
+      title: "Individual Online Sessions",
+      intro: "Explore the ways of working available at Empirica, and choose the one that feels most aligned with your needs.",
+      constellationsTitle: "Systemic Constellations",
       priceLabel: "Price",
       priceValue: "£70",
       priceUnit: "/ 90 minutes",
@@ -677,8 +709,8 @@ const translations = {
       include4: "Audio recording of the session on request",
       stepsTitle: "How it works",
       step1: { title: "Inquiry", body: "You fill out a short form describing what brings you here." },
-      step2: { title: "Initial conversation", body: "We briefly clarify the topic and check whether a constellation is the right approach." },
-      step3: { title: "Online session", body: "We meet on a video call and work with what emerges within the systemic field." },
+      step2: { title: "Initial conversation", body: "We briefly clarify the topic and check whether the chosen approach is the right fit." },
+      step3: { title: "Online session", body: "We meet on a video call and work with what emerges." },
       step4: { title: "Integration", body: "You're left with space for what happened to settle in its own time." },
       linksTitle: "More Information",
       linkFaq: "FAQ",
@@ -686,7 +718,29 @@ const translations = {
       linkConduct: "Code of Conduct",
       linkRecording: "Recording Policy",
       cta: "Book a Session",
-      disclaimer: "* Systemic constellations are not a substitute for psychotherapy or medical treatment. If you are experiencing a mental health crisis, please contact a qualified professional or emergency services."
+      disclaimer: "* Systemic constellations are not a substitute for psychotherapy or medical treatment. If you are experiencing a mental health crisis, please contact a qualified professional or emergency services.",
+      reiki: {
+        title: "Reiki Energy Healing",
+        p1: "Reiki is a gentle complementary wellbeing practice that invites deep relaxation, stillness and reconnection.",
+        p2: "Each Reiki session offers a peaceful space to slow down, release the demands of everyday life and simply be present. Many people describe the experience as calming, grounding and restorative, although every session is unique.",
+        p3: "Rather than seeking to \"fix\" or change you, Reiki encourages space for rest, balance and personal reflection.",
+        p4: "Whether you are navigating change, feeling emotionally overwhelmed or simply longing for a moment of calm, Reiki offers an opportunity to reconnect with yourself in a safe and supportive environment."
+      },
+      akashic: {
+        title: "Akashic Records Readings",
+        p1: "An Akashic Records session is an invitation to explore your life from a deeper, more reflective perspective.",
+        p2: "Together, we create a quiet space to explore the questions, themes or experiences that feel most important to you. The insights that arise are offered as opportunities for reflection, greater awareness and personal understanding.",
+        p3: "Each session is unique and unfolds in response to your individual intention.",
+        p4: "Rather than providing fixed answers or predictions, Akashic Records Readings are intended to encourage clarity, self-awareness and a deeper connection with your own inner wisdom."
+      },
+      intuitive: {
+        title: "Intuitive Guidance",
+        p1: "Intuitive Guidance is a personalised session combining intuitive insight with reflective tools to support clarity, self-awareness and personal exploration.",
+        p2: "Depending on your intention, the session may include a combination of Oracle Cards, Tarot Cards, Pendulum work, intuitive impressions and channelled insights, always guided by what feels most supportive in the moment.",
+        p3: "These sessions are not about predicting the future or making decisions on your behalf. Instead, they offer an opportunity to pause, explore different perspectives and reconnect with your own intuition.",
+        p4: "Every session is approached with curiosity, compassion and respect, recognising that you remain the author of your own life and choices.",
+        p5: "The guidance offered is intended to support reflection and personal growth, while honouring your free will and individual journey."
+      }
     },
     constellations: {
       eyebrow: "What Are Constellations",
@@ -700,8 +754,8 @@ const translations = {
       help4: "Grief, loss, and unfinished family matters",
       help5: "Dynamics within a team or organisation",
       help6: "A sense of not belonging, or feeling like an outsider in the family",
-      metaphorsTitle: "The Symbolism of Constellations",
-      metaphorsLede: "A few images that accompany this work.",
+      metaphorsTitle: "The Symbolism",
+      metaphorsLede: "A few images that accompany my work.",
       m1: { title: "Roots", body: "What we don't see often affects our life the most.", long: "Roots represent what happens beyond our awareness: the stories, loyalties and patterns passed down through generations. Even when we're unaware of them, they shape our decisions and relationships." },
       m2: { title: "Forest", body: "A place in the system.", long: "The forest shows that every element has its place and room to grow. When we find our right place within our system, tension gives way to calm." },
       m3: { title: "Stones", body: "Order.", long: "Stones arranged naturally symbolise order: not rigid rules, but an arrangement where everything is where it belongs. Order within a system brings relief." },
@@ -758,7 +812,7 @@ const translations = {
       note: "Every person's experience is unique. Empirica does not promise answers or fixed outcomes. Instead, it offers a respectful space to pause, reflect and explore."
     },
     footer: {
-      tagline: "Understand. Heal. Release.",
+      tagline: "Ask. Understand. Release.",
       navTitle: "Navigation",
       contactTitle: "Contact",
       followTitle: "Follow",
