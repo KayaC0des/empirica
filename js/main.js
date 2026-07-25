@@ -50,7 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
   if (offerTabs) {
     const tabs = Array.from(offerTabs.querySelectorAll('.offer-tab-btn'));
     const panels = Array.from(offerTabs.querySelectorAll('.offer-tab-panel'));
-    const tabsNav = offerTabs.querySelector('.offer-tabs-nav');
     const siteHeader = document.querySelector('.site-header');
     let activeIndex = tabs.findIndex((t) => t.classList.contains('is-active'));
 
@@ -62,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
         panels.forEach((p, j) => p.classList.toggle('is-active', j === i));
 
         const headerHeight = siteHeader ? siteHeader.getBoundingClientRect().height : 0;
-        const targetTop = tabsNav.getBoundingClientRect().top + window.scrollY - headerHeight;
+        const targetTop = offerTabs.getBoundingClientRect().top + window.scrollY - headerHeight;
         window.scrollTo({ top: targetTop, behavior: 'smooth' });
       });
     });
