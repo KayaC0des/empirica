@@ -332,27 +332,20 @@ const translations = {
         p4: "Każda sesja prowadzona jest z ciekawością, współczuciem i szacunkiem, z uznaniem, że pozostajesz autorem/autorką własnego życia i wyborów.",
         p5: "Oferowane przewodnictwo ma na celu wspieranie refleksji i osobistego rozwoju, przy jednoczesnym poszanowaniu Twojej wolnej woli i indywidualnej drogi."
       },
-      investmentTitle: "Cennik",
       investment: {
         constellations: {
-          title: "Sesja ustawień systemowych",
           price: "500 zł za sesję",
-          body1: "Każda sesja trwa zazwyczaj od 1 do 2 godzin, w zależności od indywidualnego procesu i Twoich potrzeb.",
-          body2: "Format sesji zostanie omówiony z Tobą wcześniej i może zostać dopasowany do Twoich preferencji: jako sesja indywidualna z użyciem figurek lub symbolicznych obiektów, lub jako sesja online z reprezentantami."
+          body1: "Każda sesja trwa zazwyczaj od 1 do 2 godzin, w zależności od indywidualnego procesu i Twoich potrzeb."
         },
         reiki: {
-          title: "Sesja Reiki",
           price1: "300 zł – 60 minut",
-          price2: "200 zł – 30 minut",
-          body: "Wszystkie sesje Reiki oferowane są jako prywatne sesje indywidualne online, dzięki czemu możesz odbyć sesję z zacisza własnego domu."
+          price2: "200 zł – 30 minut"
         },
         akashic: {
-          title: "Sesja Kronik Akaszy",
           price: "350 zł za sesję",
           body: "Każda sesja trwa około 60 minut i jest dostosowana do Twojej indywidualnej intencji oraz pytań, które chcesz zgłębić."
         },
         intuitive: {
-          title: "Sesja przewodnictwa intuicyjnego",
           price: "300 zł za sesję",
           body: "Każda sesja trwa około 60 minut i może obejmować połączenie przewodnictwa intuicyjnego, kart Oracle, kart Tarota, pracy z wahadełkiem i przekazów, w zależności od tego, co najlepiej wspiera Twoją intencję."
         }
@@ -776,27 +769,20 @@ const translations = {
         p4: "Every session is approached with curiosity, compassion and respect, recognising that you remain the author of your own life and choices.",
         p5: "The guidance offered is intended to support reflection and personal growth, while honouring your free will and individual journey."
       },
-      investmentTitle: "Investment",
       investment: {
         constellations: {
-          title: "Systemic Constellation Session",
           price: "£100 per session",
-          body1: "Each session typically lasts between 1 and 2 hours, depending on the individual process and your unique needs.",
-          body2: "The session format will be discussed with you in advance and can be tailored to your preferences, either as a one-to-one session using figurines or symbolic objects, or as an online session with representatives."
+          body1: "Each session typically lasts between 1 and 2 hours, depending on the individual process and your unique needs."
         },
         reiki: {
-          title: "Reiki Session",
           price1: "£60 – 60 minutes",
-          price2: "£40 – 30 minutes",
-          body: "All Reiki sessions are offered as private one-to-one online sessions, allowing you to receive the session from the comfort of your own home."
+          price2: "£40 – 30 minutes"
         },
         akashic: {
-          title: "Akashic Records Session",
           price: "£70 per session",
           body: "Each session lasts approximately 60 minutes and is tailored to your individual intention and the questions you wish to explore."
         },
         intuitive: {
-          title: "Intuitive Guidance Session",
           price: "£60 per session",
           body: "Each session lasts approximately 60 minutes and may include a combination of intuitive guidance, Oracle Cards, Tarot Cards, pendulum work and channelled insights, depending on what feels most supportive for your intention."
         }

@@ -46,6 +46,18 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  const offerTabs = document.querySelector('[data-offer-tabs]');
+  if (offerTabs) {
+    const tabs = Array.from(offerTabs.querySelectorAll('.offer-tab-btn'));
+    const panels = Array.from(offerTabs.querySelectorAll('.offer-tab-panel'));
+    tabs.forEach((tab, i) => {
+      tab.addEventListener('click', () => {
+        tabs.forEach((t, j) => t.classList.toggle('is-active', j === i));
+        panels.forEach((p, j) => p.classList.toggle('is-active', j === i));
+      });
+    });
+  }
+
   const carousel = document.querySelector('[data-carousel]');
   if (carousel) {
     const track = carousel.querySelector('.testimonial-track');
