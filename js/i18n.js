@@ -284,15 +284,21 @@ const translations = {
       eyebrow: "Oferta",
       title: "Sesje indywidualne online",
       intro: "Poznaj sposoby pracy dostępne w Empirica i wybierz ten, który najbardziej odpowiada Twoim potrzebom.",
-      constellationsTitle: "Ustawienia systemowe",
-      priceLabel: "Cena",
-      priceValue: "£70",
-      priceUnit: "/ 90 minut",
-      includesTitle: "W ramach sesji",
-      include1: "90 minut pracy indywidualnej online",
-      include2: "Krótka rozmowa wstępna przed sesją właściwą",
-      include3: "Przestrzeń na pytania i integrację po sesji",
-      include4: "Nagranie audio sesji na życzenie",
+      constellationsBlock: {
+        title: "Ustawienia systemowe",
+        p1: "Ustawienia systemowe oferują wyjątkową okazję do zgłębienia głębszych wzorców, relacji i dynamik, które mogą wpływać na Twoje życie.",
+        p2: "Wiele wyzwań, których doświadczamy, może być trudnych do zrozumienia, gdy patrzymy na nie jedynie z powierzchni. Ustawienie zaprasza nas, byśmy zrobili krok w tył i delikatnie zgłębili szerszy system otaczający daną sytuację, tworząc przestrzeń na nowe perspektywy i większą świadomość.",
+        p3: "Każda sesja zaczyna się od Twojej intencji. Wspólnie tworzymy bezpieczne i pełne szacunku środowisko, by zgłębić temat, który jest dla Ciebie najważniejszy, niezależnie od tego, czy dotyczy rodziny, relacji, kariery, życiowych zmian czy powracających wzorców.",
+        p4: "Każde ustawienie jest wyjątkowe. Nie ma oczekiwań co do konkretnego rezultatu czy doświadczenia. Proces rozwija się we własnym tempie, oferując okazje do refleksji, wglądu i głębszego zrozumienia siebie oraz systemów, których jesteś częścią.",
+        p5: "Moją rolą jest utrzymanie pełnej współczucia i ugruntowanej przestrzeni przez całą sesję, tak abyś mogła/mógł doświadczyć jej z ciekawością, poczuciem bezpieczeństwa i szacunkiem.",
+        p6: "Niezależnie od tego, czy szukasz jasności, nowej perspektywy czy głębszego połączenia z własnym doświadczeniem, ustawienia systemowe oferują delikatne zaproszenie, by się zatrzymać, obserwować i odkryć to, co może być gotowe, by się ujawnić i zmienić.",
+        formatTitle: "Format sesji",
+        formatIntro: "Format Twojej sesji ustawień systemowych zostanie omówiony z Tobą wcześniej, aby upewnić się, że jest komfortowy i dopasowany do Twoich indywidualnych potrzeb.",
+        formatListIntro: "Sesje mogą być oferowane jako:",
+        format1: "Sesje indywidualne z użyciem figurek lub symbolicznych obiektów, pozwalające zgłębić wybrany przez Ciebie temat w skupiony i osobisty sposób.",
+        format2: "Sesje online z reprezentantami, tworzące wspólną przestrzeń doświadczeniową z zacisza własnego domu.",
+        formatClosing: "Wspólnie zdecydujemy, które podejście będzie dla Ciebie najbardziej odpowiednie, biorąc pod uwagę intencję, z którą przychodzisz na sesję."
+      },
       stepsTitle: "Jak wygląda współpraca",
       step1: { title: "Zapytanie", body: "Wypełniasz krótki formularz, opisując to, z czym się zgłaszasz." },
       step2: { title: "Rozmowa wstępna", body: "Krótko ustalamy temat i sprawdzamy, czy wybrana metoda jest odpowiednia." },
@@ -307,10 +313,9 @@ const translations = {
       disclaimer: "* Ustawienia systemowe nie zastępują terapii psychologicznej ani leczenia medycznego. Jeśli zmagasz się z kryzysem psychicznym, skontaktuj się ze specjalistą lub odpowiednimi służbami.",
       reiki: {
         title: "Reiki",
-        p1: "Reiki to delikatna, komplementarna praktyka wspierająca dobrostan, zapraszająca do głębokiego relaksu, wyciszenia i ponownego połączenia ze sobą.",
-        p2: "Każda sesja Reiki oferuje spokojną przestrzeń, by zwolnić, uwolnić się od codziennych obowiązków i po prostu być obecnym. Wiele osób opisuje to doświadczenie jako uspokajające, ugruntowujące i regenerujące, choć każda sesja jest inna.",
-        p3: "Reiki nie ma na celu \"naprawiania\" czy zmieniania Cię, lecz tworzy przestrzeń na odpoczynek, równowagę i osobistą refleksję.",
-        p4: "Niezależnie od tego, czy przechodzisz przez zmianę, czujesz się emocjonalnie przytłoczona/y, czy po prostu tęsknisz za chwilą spokoju, Reiki oferuje okazję, by na nowo połączyć się ze sobą w bezpiecznym i wspierającym środowisku."
+        p1: "Sesje Reiki oferowane są jako prywatne sesje indywidualne online, dzięki czemu możesz odbyć sesję z zacisza własnego domu.",
+        p2: "Przed sesją otrzymasz proste wskazówki, jak przygotować swoją przestrzeń, abyś mogła/mógł zrelaksować się bez zakłóceń i w pełni doświadczyć sesji.",
+        p3: "Każda sesja jest dostosowana do Twojej indywidualnej intencji, tworząc spokojne, wspierające i pełne szacunku środowisko do refleksji, relaksu i ponownego połączenia ze sobą."
       },
       akashic: {
         title: "Odczyty Kronik Akaszy",
@@ -326,6 +331,31 @@ const translations = {
         p3: "Te sesje nie polegają na przewidywaniu przyszłości ani podejmowaniu decyzji za Ciebie. Oferują natomiast okazję, by się zatrzymać, zgłębić różne perspektywy i na nowo połączyć się z własną intuicją.",
         p4: "Każda sesja prowadzona jest z ciekawością, współczuciem i szacunkiem, z uznaniem, że pozostajesz autorem/autorką własnego życia i wyborów.",
         p5: "Oferowane przewodnictwo ma na celu wspieranie refleksji i osobistego rozwoju, przy jednoczesnym poszanowaniu Twojej wolnej woli i indywidualnej drogi."
+      },
+      investmentTitle: "Cennik",
+      investment: {
+        constellations: {
+          title: "Sesja ustawień systemowych",
+          price: "£100 za sesję",
+          body1: "Każda sesja trwa zazwyczaj od 1 do 2 godzin, w zależności od indywidualnego procesu i Twoich potrzeb.",
+          body2: "Format sesji zostanie omówiony z Tobą wcześniej i może zostać dopasowany do Twoich preferencji: jako sesja indywidualna z użyciem figurek lub symbolicznych obiektów, lub jako sesja online z reprezentantami."
+        },
+        reiki: {
+          title: "Sesja Reiki",
+          price1: "£60 – 60 minut",
+          price2: "£40 – 30 minut",
+          body: "Wszystkie sesje Reiki oferowane są jako prywatne sesje indywidualne online, dzięki czemu możesz odbyć sesję z zacisza własnego domu."
+        },
+        akashic: {
+          title: "Sesja Kronik Akaszy",
+          price: "£70 za sesję",
+          body: "Każda sesja trwa około 60 minut i jest dostosowana do Twojej indywidualnej intencji oraz pytań, które chcesz zgłębić."
+        },
+        intuitive: {
+          title: "Sesja przewodnictwa intuicyjnego",
+          price: "£60 za sesję",
+          body: "Każda sesja trwa około 60 minut i może obejmować połączenie przewodnictwa intuicyjnego, kart Oracle, kart Tarota, pracy z wahadełkiem i przekazów, w zależności od tego, co najlepiej wspiera Twoją intencję."
+        }
       }
     },
     constellations: {
@@ -698,15 +728,21 @@ const translations = {
       eyebrow: "Offer",
       title: "Individual Online Sessions",
       intro: "Explore the ways of working available at Empirica, and choose the one that feels most aligned with your needs.",
-      constellationsTitle: "Systemic Constellations",
-      priceLabel: "Price",
-      priceValue: "£70",
-      priceUnit: "/ 90 minutes",
-      includesTitle: "What's included",
-      include1: "90 minutes of individual online work",
-      include2: "A short initial conversation before the session itself",
-      include3: "Space for questions and integration afterwards",
-      include4: "Audio recording of the session on request",
+      constellationsBlock: {
+        title: "Systemic Constellations",
+        p1: "Systemic Constellations offer a unique opportunity to explore the deeper patterns, relationships and dynamics that may be influencing your life.",
+        p2: "Many of the challenges we experience can feel difficult to understand when viewed only from the surface. A constellation invites us to step back and gently explore the wider system surrounding a particular situation, creating space for new perspectives and greater awareness.",
+        p3: "Each session begins with your intention. Together, we create a safe and respectful environment to explore the theme that feels most important to you, whether it relates to family, relationships, career, life transitions or recurring patterns.",
+        p4: "Every constellation is unique. There is no expectation of a particular outcome or experience. Instead, the process unfolds at its own pace, offering opportunities for reflection, insight and a deeper understanding of yourself and the systems you are part of.",
+        p5: "My role is to hold a compassionate and grounded space throughout the session, allowing you to experience it with curiosity, safety and respect.",
+        p6: "Whether you are seeking clarity, a new perspective or a deeper connection with your own experience, Systemic Constellations offer a gentle invitation to pause, observe and discover what may be ready to emerge and change.",
+        formatTitle: "Session Format",
+        formatIntro: "The format of your Systemic Constellation session will be discussed with you in advance to ensure it feels comfortable and aligned with your individual needs.",
+        formatListIntro: "Sessions can be offered as:",
+        format1: "One-to-one sessions using figurines or symbolic objects, allowing us to explore your chosen theme in a focused and personal way.",
+        format2: "Online sessions with representatives, creating a shared experiential space from the comfort of your own home.",
+        formatClosing: "Together, we will decide which approach feels most appropriate for you and the intention you bring to the session."
+      },
       stepsTitle: "How it works",
       step1: { title: "Inquiry", body: "You fill out a short form describing what brings you here." },
       step2: { title: "Initial conversation", body: "We briefly clarify the topic and check whether the chosen approach is the right fit." },
@@ -720,11 +756,10 @@ const translations = {
       cta: "Book a Session",
       disclaimer: "* Systemic constellations are not a substitute for psychotherapy or medical treatment. If you are experiencing a mental health crisis, please contact a qualified professional or emergency services.",
       reiki: {
-        title: "Reiki Energy Healing",
-        p1: "Reiki is a gentle complementary wellbeing practice that invites deep relaxation, stillness and reconnection.",
-        p2: "Each Reiki session offers a peaceful space to slow down, release the demands of everyday life and simply be present. Many people describe the experience as calming, grounding and restorative, although every session is unique.",
-        p3: "Rather than seeking to \"fix\" or change you, Reiki encourages space for rest, balance and personal reflection.",
-        p4: "Whether you are navigating change, feeling emotionally overwhelmed or simply longing for a moment of calm, Reiki offers an opportunity to reconnect with yourself in a safe and supportive environment."
+        title: "Reiki",
+        p1: "Reiki sessions are offered as private one-to-one online sessions, allowing you to receive the session from the comfort of your own home.",
+        p2: "Before your appointment, you will receive simple guidance on how to prepare your space so you can relax without interruptions and fully embrace the experience.",
+        p3: "Each session is tailored to your individual intention, creating a calm, supportive and respectful environment for reflection, relaxation and reconnection."
       },
       akashic: {
         title: "Akashic Records Readings",
@@ -740,6 +775,31 @@ const translations = {
         p3: "These sessions are not about predicting the future or making decisions on your behalf. Instead, they offer an opportunity to pause, explore different perspectives and reconnect with your own intuition.",
         p4: "Every session is approached with curiosity, compassion and respect, recognising that you remain the author of your own life and choices.",
         p5: "The guidance offered is intended to support reflection and personal growth, while honouring your free will and individual journey."
+      },
+      investmentTitle: "Investment",
+      investment: {
+        constellations: {
+          title: "Systemic Constellation Session",
+          price: "£100 per session",
+          body1: "Each session typically lasts between 1 and 2 hours, depending on the individual process and your unique needs.",
+          body2: "The session format will be discussed with you in advance and can be tailored to your preferences, either as a one-to-one session using figurines or symbolic objects, or as an online session with representatives."
+        },
+        reiki: {
+          title: "Reiki Session",
+          price1: "£60 – 60 minutes",
+          price2: "£40 – 30 minutes",
+          body: "All Reiki sessions are offered as private one-to-one online sessions, allowing you to receive the session from the comfort of your own home."
+        },
+        akashic: {
+          title: "Akashic Records Session",
+          price: "£70 per session",
+          body: "Each session lasts approximately 60 minutes and is tailored to your individual intention and the questions you wish to explore."
+        },
+        intuitive: {
+          title: "Intuitive Guidance Session",
+          price: "£60 per session",
+          body: "Each session lasts approximately 60 minutes and may include a combination of intuitive guidance, Oracle Cards, Tarot Cards, pendulum work and channelled insights, depending on what feels most supportive for your intention."
+        }
       }
     },
     constellations: {
