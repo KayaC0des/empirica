@@ -336,24 +336,24 @@ const translations = {
       investment: {
         constellations: {
           title: "Sesja ustawień systemowych",
-          price: "£100 za sesję",
+          price: "500 zł za sesję",
           body1: "Każda sesja trwa zazwyczaj od 1 do 2 godzin, w zależności od indywidualnego procesu i Twoich potrzeb.",
           body2: "Format sesji zostanie omówiony z Tobą wcześniej i może zostać dopasowany do Twoich preferencji: jako sesja indywidualna z użyciem figurek lub symbolicznych obiektów, lub jako sesja online z reprezentantami."
         },
         reiki: {
           title: "Sesja Reiki",
-          price1: "£60 – 60 minut",
-          price2: "£40 – 30 minut",
+          price1: "300 zł – 60 minut",
+          price2: "200 zł – 30 minut",
           body: "Wszystkie sesje Reiki oferowane są jako prywatne sesje indywidualne online, dzięki czemu możesz odbyć sesję z zacisza własnego domu."
         },
         akashic: {
           title: "Sesja Kronik Akaszy",
-          price: "£70 za sesję",
+          price: "350 zł za sesję",
           body: "Każda sesja trwa około 60 minut i jest dostosowana do Twojej indywidualnej intencji oraz pytań, które chcesz zgłębić."
         },
         intuitive: {
           title: "Sesja przewodnictwa intuicyjnego",
-          price: "£60 za sesję",
+          price: "300 zł za sesję",
           body: "Każda sesja trwa około 60 minut i może obejmować połączenie przewodnictwa intuicyjnego, kart Oracle, kart Tarota, pracy z wahadełkiem i przekazów, w zależności od tego, co najlepiej wspiera Twoją intencję."
         }
       }
