@@ -291,13 +291,7 @@ const translations = {
         p3: "Każda sesja zaczyna się od Twojej intencji. Wspólnie tworzymy bezpieczne i pełne szacunku środowisko, by zgłębić temat, który jest dla Ciebie najważniejszy, niezależnie od tego, czy dotyczy rodziny, relacji, kariery, życiowych zmian czy powracających wzorców.",
         p4: "Każde ustawienie jest wyjątkowe. Nie ma oczekiwań co do konkretnego rezultatu czy doświadczenia. Proces rozwija się we własnym tempie, oferując okazje do refleksji, wglądu i głębszego zrozumienia siebie oraz systemów, których jesteś częścią.",
         p5: "Moją rolą jest utrzymanie pełnej współczucia i ugruntowanej przestrzeni przez całą sesję, tak abyś mogła/mógł doświadczyć jej z ciekawością, poczuciem bezpieczeństwa i szacunkiem.",
-        p6: "Niezależnie od tego, czy szukasz jasności, nowej perspektywy czy głębszego połączenia z własnym doświadczeniem, ustawienia systemowe oferują delikatne zaproszenie, by się zatrzymać, obserwować i odkryć to, co może być gotowe, by się ujawnić i zmienić.",
-        formatTitle: "Format sesji",
-        formatIntro: "Format Twojej sesji ustawień systemowych zostanie omówiony z Tobą wcześniej, aby upewnić się, że jest komfortowy i dopasowany do Twoich indywidualnych potrzeb.",
-        formatListIntro: "Sesje mogą być oferowane jako:",
-        format1: "Sesje indywidualne z użyciem figurek lub symbolicznych obiektów, pozwalające zgłębić wybrany przez Ciebie temat w skupiony i osobisty sposób.",
-        format2: "Sesje online z reprezentantami, tworzące wspólną przestrzeń doświadczeniową z zacisza własnego domu.",
-        formatClosing: "Wspólnie zdecydujemy, które podejście będzie dla Ciebie najbardziej odpowiednie, biorąc pod uwagę intencję, z którą przychodzisz na sesję."
+        p6: "Niezależnie od tego, czy szukasz jasności, nowej perspektywy czy głębszego połączenia z własnym doświadczeniem, ustawienia systemowe oferują delikatne zaproszenie, by się zatrzymać, obserwować i odkryć to, co może być gotowe, by się ujawnić i zmienić."
       },
       stepsTitle: "Jak wygląda współpraca",
       step1: { title: "Zapytanie", body: "Wypełniasz krótki formularz, opisując to, z czym się zgłaszasz." },
@@ -728,13 +722,7 @@ const translations = {
         p3: "Each session begins with your intention. Together, we create a safe and respectful environment to explore the theme that feels most important to you, whether it relates to family, relationships, career, life transitions or recurring patterns.",
         p4: "Every constellation is unique. There is no expectation of a particular outcome or experience. Instead, the process unfolds at its own pace, offering opportunities for reflection, insight and a deeper understanding of yourself and the systems you are part of.",
         p5: "My role is to hold a compassionate and grounded space throughout the session, allowing you to experience it with curiosity, safety and respect.",
-        p6: "Whether you are seeking clarity, a new perspective or a deeper connection with your own experience, Systemic Constellations offer a gentle invitation to pause, observe and discover what may be ready to emerge and change.",
-        formatTitle: "Session Format",
-        formatIntro: "The format of your Systemic Constellation session will be discussed with you in advance to ensure it feels comfortable and aligned with your individual needs.",
-        formatListIntro: "Sessions can be offered as:",
-        format1: "One-to-one sessions using figurines or symbolic objects, allowing us to explore your chosen theme in a focused and personal way.",
-        format2: "Online sessions with representatives, creating a shared experiential space from the comfort of your own home.",
-        formatClosing: "Together, we will decide which approach feels most appropriate for you and the intention you bring to the session."
+        p6: "Whether you are seeking clarity, a new perspective or a deeper connection with your own experience, Systemic Constellations offer a gentle invitation to pause, observe and discover what may be ready to emerge and change."
       },
       stepsTitle: "How it works",
       step1: { title: "Inquiry", body: "You fill out a short form describing what brings you here." },

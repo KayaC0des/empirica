@@ -648,6 +648,11 @@ blockquote.pull-quote::after { content: '”'; }
   justify-content: center;
   gap: 14px;
   margin-bottom: 56px;
+  position: sticky;
+  top: var(--nav-height);
+  z-index: 80;
+  background: var(--ivory);
+  padding: 18px 0;
 }
 .offer-tab-btn {
   padding: 14px 28px;
