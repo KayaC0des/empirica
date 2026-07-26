@@ -326,6 +326,16 @@ section { padding: 100px 0; }
 .metaphor-card h4 { font-size: 1.3rem; margin-bottom: .4em; }
 .metaphor-card p { color: var(--eucalyptus-deep); font-size: 1rem; margin: 0; }
 
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+.service-tile { text-align: center; }
+.service-tile .art-frame { aspect-ratio: 4/3; margin-bottom: 18px; }
+.service-tile h4 { font-size: 1.2rem; }
+@media (max-width: 640px) { .service-grid { grid-template-columns: 1fr; } }
+
 /* Interactive symbolism explorer */
 .symbolism {
   display: grid;

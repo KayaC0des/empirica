@@ -223,13 +223,8 @@ const translations = {
         card3: { title: "Uwolnić", body: "Odzyskaj wolność decyzji i energię, która była uwięziona w systemie." }
       },
       reflections: {
-        eyebrow: "Połącz się z",
-        title: "Ustawienia systemowe mówią językiem obrazów. Kilka z nich towarzyszy pracy Empirica.",
-        lede: "Niektóre rzeczy rozumiemy, zanim zostaną wyjaśnione. Znaczenie często ujawnia się poprzez symbole, obecność i ciche zrozumienie.",
-        card1: { title: "Korzenie", body: "To, czego nie widzimy, często wpływa na nasze życie najbardziej." },
-        card2: { title: "Las", body: "Miejsce w systemie." },
-        card3: { title: "Strumień", body: "Przepływ." },
-        more: "Poznaj więcej symboli"
+        eyebrow: "Praca ze mną",
+        more: "Więcej informacji"
       },
       quote: {
         text: "Kiedy system odzyskuje równowagę, pojawia się przestrzeń na zmianę."
@@ -356,6 +351,7 @@ const translations = {
       help4: "Żałoba, strata i niedokończone sprawy rodzinne",
       help5: "Dynamiki w zespole lub organizacji",
       help6: "Poczucie braku przynależności lub bycia outsiderem w rodzinie",
+      metaphorsEyebrow: "Połącz się z",
       metaphorsTitle: "Przemiana zaczyna się poza słowami",
       m1: { title: "Korzenie", body: "To, czego nie widzimy, często wpływa na nasze życie najbardziej.", long: "Korzenie reprezentują to, co dzieje się poza naszą świadomością: historie, lojalności i wzorce przekazywane z pokolenia na pokolenie. Nawet gdy o nich nie wiemy, kształtują nasze decyzje i relacje." },
       m2: { title: "Las", body: "Miejsce w systemie.", long: "Las pokazuje, że każdy element ma swoje miejsce i przestrzeń do wzrostu. Kiedy znajdujemy właściwe miejsce w swoim systemie, napięcie ustępuje miejsca spokojowi." },
@@ -652,13 +648,8 @@ const translations = {
         card3: { title: "Release", body: "Reclaim the freedom to choose, and the energy that was held within the system." }
       },
       reflections: {
-        eyebrow: "Connect with",
-        title: "Systemic constellations speak in images. A few of them accompany Empirica's work.",
-        lede: "Some things are understood before they are explained. Meaning is often revealed through symbols, presence and quiet insight.",
-        card1: { title: "Roots", body: "What we don't see often affects our life the most." },
-        card2: { title: "Forest", body: "A place in the system." },
-        card3: { title: "Stream", body: "Flow." },
-        more: "Explore more symbols"
+        eyebrow: "Working with me",
+        more: "More info"
       },
       quote: {
         text: "When the system regains its balance, space for change appears."
@@ -785,6 +776,7 @@ const translations = {
       help4: "Grief, loss, and unfinished family matters",
       help5: "Dynamics within a team or organisation",
       help6: "A sense of not belonging, or feeling like an outsider in the family",
+      metaphorsEyebrow: "Connect with",
       metaphorsTitle: "Transformation begins beyond words",
       m1: { title: "Roots", body: "What we don't see often affects our life the most.", long: "Roots represent what happens beyond our awareness: the stories, loyalties and patterns passed down through generations. Even when we're unaware of them, they shape our decisions and relationships." },
       m2: { title: "Forest", body: "A place in the system.", long: "The forest shows that every element has its place and room to grow. When we find our right place within our system, tension gives way to calm." },
