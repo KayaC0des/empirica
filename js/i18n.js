@@ -224,6 +224,10 @@ const translations = {
       },
       reflections: {
         eyebrow: "Praca ze mną",
+        constellationsSummary: "Wyjątkowa okazja do zgłębienia głębszych wzorców, relacji i dynamik wpływających na Twoje życie.",
+        reikiSummary: "Spokojna sesja energetyczna online, tworząca przestrzeń do relaksu i ponownego połączenia ze sobą.",
+        akashicSummary: "Zaproszenie do zgłębienia swojego życia z głębszej, bardziej refleksyjnej perspektywy.",
+        intuitiveSummary: "Spersonalizowana sesja łącząca intuicyjny wgląd z narzędziami refleksyjnymi, wspierająca jasność i samoświadomość.",
         more: "Więcej informacji"
       },
       quote: {
@@ -649,6 +653,10 @@ const translations = {
       },
       reflections: {
         eyebrow: "Working with me",
+        constellationsSummary: "A unique opportunity to explore the deeper patterns, relationships and dynamics that may be influencing your life.",
+        reikiSummary: "A calming online energy session, creating space for relaxation and reconnecting with yourself.",
+        akashicSummary: "An invitation to explore your life from a deeper, more reflective perspective.",
+        intuitiveSummary: "A personalised session combining intuitive insight with reflective tools, supporting clarity and self-awareness.",
         more: "More info"
       },
       quote: {
