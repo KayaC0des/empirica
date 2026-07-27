@@ -886,6 +886,10 @@ function empiricaApplyLanguage(lang) {
     select.value = lang;
   });
 
+  document.querySelectorAll('.lang-switch button').forEach((btn) => {
+    btn.setAttribute('aria-current', btn.dataset.lang === lang ? 'true' : 'false');
+  });
+
   localStorage.setItem('empirica_lang', lang);
 }
 
@@ -897,6 +901,10 @@ function empiricaInitLanguage() {
 
   document.querySelectorAll('.lang-select').forEach((select) => {
     select.addEventListener('change', () => empiricaApplyLanguage(select.value));
+  });
+
+  document.querySelectorAll('.lang-switch button').forEach((btn) => {
+    btn.addEventListener('click', () => empiricaApplyLanguage(btn.dataset.lang));
   });
 }
 
