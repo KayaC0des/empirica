@@ -276,7 +276,7 @@ const translations = {
       credential2: "Certyfikowany Konsultant Kronik Akaszy (Akashic Vibe Integrity), 2020",
       credential3: "Praktyk Reiki Usui Shiki Ryoho II stopnia, 2021",
       credential4: "NCFE CACHE Level 3 Diploma in Counselling Skills, 2024",
-      pullquote: "Empirica nigdy nie powstała po to, by dawać ludziom odpowiedzi. Powstała po to, by zaoferować przestrzeń, w której wreszcie można zadać właściwe pytania."
+      pullquote: "Empirica nie powstała po to, by dawać ludziom odpowiedzi. Powstała po to, by zaoferować przestrzeń, w której wreszcie można zadać właściwe pytania."
     },
     offer: {
       eyebrow: "Pracuj ze mną",
@@ -705,7 +705,7 @@ const translations = {
       credential2: "Certified Akashic Records Consultant (Akashic Vibe Integrity), 2020",
       credential3: "Reiki Usui Shiki Ryoho Practitioner, Level II, 2021",
       credential4: "NCFE CACHE Level 3 Diploma in Counselling Skills, 2024",
-      pullquote: "Empirica was never created to give people answers. It was created to offer a space where the right questions could finally be asked."
+      pullquote: "Empirica was not created to give people answers. It was created to offer a space where the right questions could finally be asked."
     },
     offer: {
       eyebrow: "Work with me",
