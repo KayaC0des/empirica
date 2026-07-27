@@ -882,8 +882,8 @@ function empiricaApplyLanguage(lang) {
     if (val !== undefined) document.title = val;
   }
 
-  document.querySelectorAll('.lang-switch button').forEach((btn) => {
-    btn.setAttribute('aria-current', btn.dataset.lang === lang ? 'true' : 'false');
+  document.querySelectorAll('.lang-select').forEach((select) => {
+    select.value = lang;
   });
 
   localStorage.setItem('empirica_lang', lang);
@@ -895,8 +895,8 @@ function empiricaInitLanguage() {
   const lang = saved || (browserLang === 'en' ? 'en' : 'pl');
   empiricaApplyLanguage(lang);
 
-  document.querySelectorAll('.lang-switch button').forEach((btn) => {
-    btn.addEventListener('click', () => empiricaApplyLanguage(btn.dataset.lang));
+  document.querySelectorAll('.lang-select').forEach((select) => {
+    select.addEventListener('change', () => empiricaApplyLanguage(select.value));
   });
 }
 
