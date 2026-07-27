@@ -193,7 +193,7 @@ const translations = {
         s10title: "Odpowiedzialność klienta",
         s10body: "Klienci są zachęcani do dobrowolnego udziału, otwartej komunikacji tam, gdzie czują się z tym komfortowo, poszanowania własnych granic oraz szukania dodatkowego wsparcia specjalistycznego, gdy jest to właściwe.",
         s11title: "Nasze zobowiązanie etyczne",
-        s11body: "Wierzę, że znacząca praca zaczyna się od zaufania. Moim zobowiązaniem jest zaoferowanie przestrzeni, w której ludzie mogą odkrywać swoje doświadczenia w poczuciu bezpieczeństwa, dyskrecji, szacunku i obecności. Beata, Założycielka i Praktyk"
+        s11body: "Wierzę, że znacząca praca zaczyna się od zaufania. Moim zobowiązaniem jest zaoferowanie przestrzeni, w której ludzie mogą odkrywać swoje doświadczenia w poczuciu bezpieczeństwa, dyskrecji, szacunku i obecności. Beata, Założyciel i Praktyk"
       },
       recording: {
         title: "Polityka nagrywania sesji",
@@ -266,15 +266,15 @@ const translations = {
     about: {
       eyebrow: "O mnie",
       name: "Beata",
-      role: "Założycielka Empirica",
-      p1: "Przychodzi taki moment, w którym zaczynamy się zastanawiać. Dlaczego to się wciąż powtarza? Dlaczego to jest takie trudne? Dlaczego tak reaguję? Jeśli kiedykolwiek zadawałaś sobie te pytania, nie jesteś sama.",
+      role: "Założyciel Empirica",
+      p1: "Przychodzi taki moment, w którym zaczynamy się zastanawiać. Dlaczego to się wciąż powtarza? Dlaczego to jest takie trudne? Dlaczego tak reaguję? Jeśli te pytania kiedykolwiek się pojawiły, nie jesteś jedyną osobą, która się nad nimi zastanawiała.",
       p2: "Nazywam się Beata i to właśnie te pytania zainspirowały moją własną podróż ciekawości i odkrywania siebie. Wierzę, że jest w nas więcej, niż widać na pierwszy rzut oka: nasze życie kształtują nie tylko wybory, które podejmujemy, ale także nasze doświadczenia, relacje, systemy rodzinne i historie, które nosimy w sobie. To przekonanie stało się fundamentem Empirica.",
       p3: "Stworzyłam Empirica jako przestrzeń, w której można się zatrzymać, na nowo połączyć się ze sobą i zgłębiać pytania, które przynosi życie. Moja praca skupia się głównie na ustawieniach systemowych: podejściu, które oferuje wyjątkowy sposób odkrywania własnego życia. Oprócz tej pracy oferuję również inne holistyczne sesje indywidualne i grupowe. Każda z tych praktyk otwiera inne drzwi do refleksji, świadomości i osobistego rozwoju, dostosowane do Twoich indywidualnych potrzeb i intencji.",
       p4: "Wierzę, że znacząca zmiana często zaczyna się wtedy, gdy dajemy sobie przestrzeń, by zwolnić. Moją rolą nie jest mówienie Ci, kim jesteś. Moją rolą jest stworzenie przestrzeni, w której możesz odkryć to samodzielnie.",
       credentialsTitle: "Wykształcenie i doświadczenie",
-      credential1: "Certyfikowana Facylitatorka Ustawień Systemowych, 2026",
-      credential2: "Certyfikowana Konsultantka Kronik Akaszy (Akashic Vibe Integrity), 2020",
-      credential3: "Praktyczka Reiki Usui Shiki Ryoho II stopnia, 2021",
+      credential1: "Certyfikowany Facylitator Ustawień Systemowych, 2026",
+      credential2: "Certyfikowany Konsultant Kronik Akaszy (Akashic Vibe Integrity), 2020",
+      credential3: "Praktyk Reiki Usui Shiki Ryoho II stopnia, 2021",
       credential4: "NCFE CACHE Level 3 Diploma in Counselling Skills, 2024",
       pullquote: "Empirica nigdy nie powstała po to, by dawać ludziom odpowiedzi. Powstała po to, by zaoferować przestrzeń, w której wreszcie można zadać właściwe pytania."
     },
